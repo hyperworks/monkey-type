@@ -1,0 +1,12 @@
+{
+    "project": "MonkeyType",
+    "width": 800,
+    "height": 600,
+    "container": null,
+    "framerate": 40,
+    "background_color": "#000",
+    "resources": {
+        "base_path": "./",
+        "manifest": []
+    }
+}

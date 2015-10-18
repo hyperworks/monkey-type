@@ -1,0 +1,1609 @@
+2015-07-06 18:35:44.652 MonkeyType[5671:188040] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/10C07C93-15D3-4E83-B493-895C0EB52A64/Library/Cookies/Cookies.binarycookies
+2015-07-06 18:35:44.851 MonkeyType[5671:188040] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 18:35:44.877 MonkeyType[5671:188040] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 18:35:44.877 MonkeyType[5671:188040] Multi-tasking -> Device: YES, App: YES
+2015-07-06 18:35:44.887 MonkeyType[5671:188040] Unlimited access to network resources
+2015-07-06 18:35:44.894 MonkeyType[5671:188040] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 18:35:45.001 MonkeyType[5671:188040] [CDVTimer][keyboard] 0.070989ms
+2015-07-06 18:35:45.005 MonkeyType[5671:188040] [CDVTimer][file] 3.012002ms
+2015-07-06 18:35:45.005 MonkeyType[5671:188040] [CDVTimer][TotalPluginStartup] 3.396034ms
+2015-07-06 18:35:45.194 MonkeyType[5671:188040] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 18:35:45.731 MonkeyType[5671:188040] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/index.html
+2015-07-06 18:35:53.856 MonkeyType[5671:188040] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 18:35:53.863 MonkeyType[5671:188040] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:35:54.248 MonkeyType[5671:188040] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:11.690 MonkeyType[5671:188040] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 18:36:11.696 MonkeyType[5671:188040] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:11.706 MonkeyType[5671:188040] THREAD WARNING: ['Media'] took '16.030029' ms. Plugin should use a background thread.
+2015-07-06 18:36:12.089 MonkeyType[5671:188040] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:30.222 MonkeyType[5671:188040] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 18:36:30.228 MonkeyType[5671:188040] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:30.614 MonkeyType[5671:188040] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:40.316 MonkeyType[5671:188040] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 18:36:40.321 MonkeyType[5671:188040] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:40.330 MonkeyType[5671:188040] THREAD WARNING: ['Media'] took '14.483887' ms. Plugin should use a background thread.
+2015-07-06 18:36:40.713 MonkeyType[5671:188040] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:50.406 MonkeyType[5671:188040] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/E4D6BAA6-8A2D-4601-9DD6-54D054F31CCA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 18:36:50.412 MonkeyType[5671:188040] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 18:36:50.417 MonkeyType[5671:188040] THREAD WARNING: ['Media'] took '11.322021' ms. Plugin should use a background thread.
+2015-07-06 18:36:50.800 MonkeyType[5671:188040] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 19:30:44.225 MonkeyType[6080:211651] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/E6F51AAD-6244-4F84-B4EF-C77C65FB9BE3/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:30:44.467 MonkeyType[6080:211651] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:30:44.523 MonkeyType[6080:211651] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:30:44.523 MonkeyType[6080:211651] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:30:44.549 MonkeyType[6080:211651] Unlimited access to network resources
+2015-07-06 19:30:44.566 MonkeyType[6080:211651] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:30:44.781 MonkeyType[6080:211651] [CDVTimer][keyboard] 0.379026ms
+2015-07-06 19:30:44.783 MonkeyType[6080:211651] [CDVTimer][file] 1.555979ms
+2015-07-06 19:30:44.783 MonkeyType[6080:211651] Init FacebookConnect Session
+2015-07-06 19:30:44.794 MonkeyType[6080:211651] [CDVTimer][facebookconnectplugin] 11.383057ms
+2015-07-06 19:30:44.794 MonkeyType[6080:211651] [CDVTimer][TotalPluginStartup] 13.733983ms
+2015-07-06 19:30:45.017 MonkeyType[6080:211651] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:30:45.627 MonkeyType[6080:211651] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/79D1EA46-ADD2-40C7-BB2F-38ED75FE122D/MonkeyType.app/www/index.html
+2015-07-06 19:32:07.289 MonkeyType[6266:212975] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/66939BE0-1EDC-4090-ACD8-FEFA98EB18F3/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:32:07.354 MonkeyType[6266:212975] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:32:07.389 MonkeyType[6266:212975] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:32:07.389 MonkeyType[6266:212975] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:32:07.391 MonkeyType[6266:212975] Unlimited access to network resources
+2015-07-06 19:32:07.394 MonkeyType[6266:212975] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:32:07.490 MonkeyType[6266:212975] [CDVTimer][keyboard] 0.048995ms
+2015-07-06 19:32:07.491 MonkeyType[6266:212975] [CDVTimer][file] 0.770986ms
+2015-07-06 19:32:07.491 MonkeyType[6266:212975] Init FacebookConnect Session
+2015-07-06 19:32:07.493 MonkeyType[6266:212975] [CDVTimer][facebookconnectplugin] 2.608001ms
+2015-07-06 19:32:07.494 MonkeyType[6266:212975] [CDVTimer][TotalPluginStartup] 3.826976ms
+2015-07-06 19:32:07.543 MonkeyType[6266:212975] Resetting plugins due to page load.
+2015-07-06 19:32:07.663 MonkeyType[6266:212975] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DEAEE7A5-20AD-48F1-BBA1-F3B6ACFC33B6/MonkeyType.app/www/index.html
+2015-07-06 19:32:49.570 MonkeyType[6266:212975] Resetting plugins due to page load.
+2015-07-06 19:32:49.572 MonkeyType[6266:212975] Failed to load webpage with error: The requested URL was not found on this server.
+2015-07-06 19:32:56.392 MonkeyType[6266:212975] Resetting plugins due to page load.
+2015-07-06 19:32:56.545 MonkeyType[6266:212975] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DEAEE7A5-20AD-48F1-BBA1-F3B6ACFC33B6/MonkeyType.app/www/index.html
+2015-07-06 19:34:46.198 MonkeyType[6477:215214] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/C55A7697-35B5-40A8-9078-887C2AC64FCF/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:34:46.260 MonkeyType[6477:215214] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:34:46.292 MonkeyType[6477:215214] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:34:46.292 MonkeyType[6477:215214] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:34:46.294 MonkeyType[6477:215214] Unlimited access to network resources
+2015-07-06 19:34:46.297 MonkeyType[6477:215214] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:34:46.390 MonkeyType[6477:215214] [CDVTimer][keyboard] 0.072956ms
+2015-07-06 19:34:46.392 MonkeyType[6477:215214] [CDVTimer][file] 1.447022ms
+2015-07-06 19:34:46.392 MonkeyType[6477:215214] Init FacebookConnect Session
+2015-07-06 19:34:46.396 MonkeyType[6477:215214] [CDVTimer][facebookconnectplugin] 3.301978ms
+2015-07-06 19:34:46.396 MonkeyType[6477:215214] [CDVTimer][TotalPluginStartup] 5.452991ms
+2015-07-06 19:34:46.467 MonkeyType[6477:215214] Resetting plugins due to page load.
+2015-07-06 19:34:46.564 MonkeyType[6477:215214] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/EECEC7FA-4548-4ABD-A9E4-2E0CDBBC6F65/MonkeyType.app/www/index.html
+2015-07-06 19:35:00.358 MonkeyType[6477:215214] Resetting plugins due to page load.
+2015-07-06 19:35:00.434 MonkeyType[6477:215214] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/EECEC7FA-4548-4ABD-A9E4-2E0CDBBC6F65/MonkeyType.app/www/index.html
+2015-07-06 19:36:22.588 MonkeyType[6667:216700] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/B5BF89DD-AD67-4066-A647-F71CB6B035D5/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:36:22.669 MonkeyType[6667:216700] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:36:22.686 MonkeyType[6667:216700] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:36:22.686 MonkeyType[6667:216700] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:36:22.688 MonkeyType[6667:216700] Unlimited access to network resources
+2015-07-06 19:36:22.691 MonkeyType[6667:216700] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:36:22.770 MonkeyType[6667:216700] [CDVTimer][keyboard] 0.052989ms
+2015-07-06 19:36:22.771 MonkeyType[6667:216700] [CDVTimer][file] 0.797987ms
+2015-07-06 19:36:22.771 MonkeyType[6667:216700] Init FacebookConnect Session
+2015-07-06 19:36:22.774 MonkeyType[6667:216700] [CDVTimer][facebookconnectplugin] 2.593040ms
+2015-07-06 19:36:22.774 MonkeyType[6667:216700] [CDVTimer][TotalPluginStartup] 3.870010ms
+2015-07-06 19:36:22.851 MonkeyType[6667:216700] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:36:23.126 MonkeyType[6667:216700] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/6A540B8C-5B6D-4219-B6E9-AEB92B9E26EA/MonkeyType.app/www/index.html
+2015-07-06 19:36:23.333 MonkeyType[6667:216700] THREAD WARNING: ['FacebookConnectPlugin'] took '72.983887' ms. Plugin should use a background thread.
+2015-07-06 19:36:27.220 MonkeyType[6846:217188] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/A107D163-8F40-46E8-99BC-7C60828CCF25/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:36:27.280 MonkeyType[6846:217188] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:36:27.338 MonkeyType[6846:217188] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:36:27.338 MonkeyType[6846:217188] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:36:27.340 MonkeyType[6846:217188] Unlimited access to network resources
+2015-07-06 19:36:27.342 MonkeyType[6846:217188] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:36:27.426 MonkeyType[6846:217188] [CDVTimer][keyboard] 0.075996ms
+2015-07-06 19:36:27.428 MonkeyType[6846:217188] [CDVTimer][file] 1.515985ms
+2015-07-06 19:36:27.428 MonkeyType[6846:217188] Init FacebookConnect Session
+2015-07-06 19:36:27.431 MonkeyType[6846:217188] [CDVTimer][facebookconnectplugin] 3.400028ms
+2015-07-06 19:36:27.432 MonkeyType[6846:217188] [CDVTimer][TotalPluginStartup] 5.546987ms
+2015-07-06 19:36:27.548 MonkeyType[6846:217188] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:36:27.748 MonkeyType[6846:217188] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/64386676-1907-4467-868C-BAD5382E4C8F/MonkeyType.app/www/index.html
+2015-07-06 19:36:27.989 MonkeyType[6846:217188] THREAD WARNING: ['FacebookConnectPlugin'] took '18.319092' ms. Plugin should use a background thread.
+2015-07-06 19:37:17.341 MonkeyType[7033:218112] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/40962387-07C2-41E3-B08E-5C18BFDB26B2/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:37:17.408 MonkeyType[7033:218112] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:37:17.450 MonkeyType[7033:218112] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:37:17.450 MonkeyType[7033:218112] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:37:17.453 MonkeyType[7033:218112] Unlimited access to network resources
+2015-07-06 19:37:17.455 MonkeyType[7033:218112] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:37:17.562 MonkeyType[7033:218112] [CDVTimer][keyboard] 0.081956ms
+2015-07-06 19:37:17.563 MonkeyType[7033:218112] [CDVTimer][file] 1.358986ms
+2015-07-06 19:37:17.563 MonkeyType[7033:218112] Init FacebookConnect Session
+2015-07-06 19:37:17.567 MonkeyType[7033:218112] [CDVTimer][facebookconnectplugin] 3.564000ms
+2015-07-06 19:37:17.567 MonkeyType[7033:218112] [CDVTimer][TotalPluginStartup] 5.599976ms
+2015-07-06 19:37:17.655 MonkeyType[7033:218112] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:37:17.820 MonkeyType[7033:218112] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/3E9926CE-A8E6-4E3B-948B-D355BBDE26C0/MonkeyType.app/www/index.html
+2015-07-06 19:37:17.917 MonkeyType[7033:218112] THREAD WARNING: ['FacebookConnectPlugin'] took '13.818115' ms. Plugin should use a background thread.
+2015-07-06 19:41:20.296 MonkeyType[7222:221094] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/2B347E08-90C2-4BF7-BD50-94441C83F594/Library/Cookies/Cookies.binarycookies
+2015-07-06 19:41:20.373 MonkeyType[7222:221094] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:41:20.423 MonkeyType[7222:221094] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:41:20.423 MonkeyType[7222:221094] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:41:20.425 MonkeyType[7222:221094] Unlimited access to network resources
+2015-07-06 19:41:20.427 MonkeyType[7222:221094] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:41:20.521 MonkeyType[7222:221094] [CDVTimer][keyboard] 0.078022ms
+2015-07-06 19:41:20.523 MonkeyType[7222:221094] [CDVTimer][file] 1.779020ms
+2015-07-06 19:41:20.523 MonkeyType[7222:221094] Init FacebookConnect Session
+2015-07-06 19:41:20.526 MonkeyType[7222:221094] [CDVTimer][facebookconnectplugin] 3.632009ms
+2015-07-06 19:41:20.527 MonkeyType[7222:221094] [CDVTimer][TotalPluginStartup] 6.052017ms
+2015-07-06 19:41:20.597 MonkeyType[7222:221094] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:41:20.747 MonkeyType[7222:221094] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/B04F8BBF-CF1C-4C4B-9B71-D1BAF3867F27/MonkeyType.app/www/index.html
+2015-07-06 19:42:25.616 MonkeyType[7222:221094] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/B04F8BBF-CF1C-4C4B-9B71-D1BAF3867F27/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 19:42:25.634 MonkeyType[7222:221094] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 19:42:25.650 MonkeyType[7222:221094] THREAD WARNING: ['Media'] took '33.604248' ms. Plugin should use a background thread.
+2015-07-06 19:42:26.035 MonkeyType[7222:221094] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 19:43:11.247 MonkeyType[7222:221094] THREAD WARNING: ['FacebookConnectPlugin'] took '78.787109' ms. Plugin should use a background thread.
+2015-07-06 19:55:53.852 MonkeyType[7426:228451] [Crashlytics] Version 3.0.9 (54)
+2015-07-06 19:55:53.870 MonkeyType[7426:228451] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 19:55:53.870 MonkeyType[7426:228451] Multi-tasking -> Device: YES, App: YES
+2015-07-06 19:55:53.872 MonkeyType[7426:228451] Unlimited access to network resources
+2015-07-06 19:55:53.875 MonkeyType[7426:228451] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 19:55:53.948 MonkeyType[7426:228451] [CDVTimer][keyboard] 0.050962ms
+2015-07-06 19:55:53.949 MonkeyType[7426:228451] [CDVTimer][file] 0.777960ms
+2015-07-06 19:55:53.949 MonkeyType[7426:228451] Init FacebookConnect Session
+2015-07-06 19:55:53.953 MonkeyType[7426:228451] [CDVTimer][facebookconnectplugin] 4.589975ms
+2015-07-06 19:55:53.954 MonkeyType[7426:228451] [CDVTimer][TotalPluginStartup] 5.835950ms
+2015-07-06 19:55:54.010 MonkeyType[7426:228451] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-06 19:55:54.154 MonkeyType[7426:228451] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/28F470A9-6760-48C3-A7DF-DAE7BC80C652/MonkeyType.app/www/index.html
+2015-07-06 19:56:00.150 MonkeyType[7426:228451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/28F470A9-6760-48C3-A7DF-DAE7BC80C652/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-06 19:56:00.156 MonkeyType[7426:228451] Playing audio sample './assets/sound/jump.wav'
+2015-07-06 19:56:00.160 MonkeyType[7426:228451] THREAD WARNING: ['Media'] took '10.023193' ms. Plugin should use a background thread.
+2015-07-06 19:56:00.543 MonkeyType[7426:228451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-06 19:56:24.299 MonkeyType[7426:228451] THREAD WARNING: ['FacebookConnectPlugin'] took '47.935791' ms. Plugin should use a background thread.
+2015-07-06 19:56:28.494 MonkeyType[7426:228451] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-06 19:57:33.882 MonkeyType[7426:228451] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-06 19:58:15.810 MonkeyType[7426:229874] Terminating since there is no system app.
+2015-07-08 14:12:50.144 MonkeyType[1673:74117] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:12:50.185 MonkeyType[1673:74117] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:12:50.185 MonkeyType[1673:74117] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:12:50.206 MonkeyType[1673:74117] Unlimited access to network resources
+2015-07-08 14:12:50.215 MonkeyType[1673:74117] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:12:50.452 MonkeyType[1673:74117] [CDVTimer][keyboard] 0.086010ms
+2015-07-08 14:12:50.455 MonkeyType[1673:74117] [CDVTimer][file] 2.565980ms
+2015-07-08 14:12:50.456 MonkeyType[1673:74117] Init FacebookConnect Session
+2015-07-08 14:12:50.484 MonkeyType[1673:74117] [CDVTimer][facebookconnectplugin] 28.953016ms
+2015-07-08 14:12:50.484 MonkeyType[1673:74117] [CDVTimer][TotalPluginStartup] 32.106042ms
+2015-07-08 14:12:50.726 MonkeyType[1673:74117] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:12:51.263 MonkeyType[1673:74117] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7F4F9D07-8CC5-4CA0-83F8-5FC27E70A35A/MonkeyType.app/www/index.html
+2015-07-08 14:12:57.686 MonkeyType[1673:74117] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7F4F9D07-8CC5-4CA0-83F8-5FC27E70A35A/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:12:57.695 MonkeyType[1673:74117] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:12:57.701 MonkeyType[1673:74117] THREAD WARNING: ['Media'] took '15.343994' ms. Plugin should use a background thread.
+2015-07-08 14:12:58.097 MonkeyType[1673:74117] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:13:05.621 MonkeyType[1673:74117] THREAD WARNING: ['FacebookConnectPlugin'] took '52.964844' ms. Plugin should use a background thread.
+2015-07-08 14:13:12.600 MonkeyType[1673:74117] THREAD WARNING: ['FacebookConnectPlugin'] took '69.162109' ms. Plugin should use a background thread.
+2015-07-08 14:13:41.770 MonkeyType[1871:75572] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/154EE02C-4B3D-41B0-A04A-BD8B92E699E4/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:13:41.848 MonkeyType[1871:75572] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:13:41.863 MonkeyType[1871:75572] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:13:41.863 MonkeyType[1871:75572] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:13:41.866 MonkeyType[1871:75572] Unlimited access to network resources
+2015-07-08 14:13:41.868 MonkeyType[1871:75572] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:13:41.942 MonkeyType[1871:75572] [CDVTimer][keyboard] 0.056028ms
+2015-07-08 14:13:41.943 MonkeyType[1871:75572] [CDVTimer][file] 0.786006ms
+2015-07-08 14:13:41.943 MonkeyType[1871:75572] Init FacebookConnect Session
+2015-07-08 14:13:41.947 MonkeyType[1871:75572] [CDVTimer][facebookconnectplugin] 4.323006ms
+2015-07-08 14:13:41.947 MonkeyType[1871:75572] [CDVTimer][TotalPluginStartup] 5.539000ms
+2015-07-08 14:13:42.035 MonkeyType[1871:75572] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:13:42.212 MonkeyType[1871:75572] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F2EECD7F-3246-4FA5-A0CA-A824B5AA6A43/MonkeyType.app/www/index.html
+2015-07-08 14:13:48.222 MonkeyType[1871:75572] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F2EECD7F-3246-4FA5-A0CA-A824B5AA6A43/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:13:48.228 MonkeyType[1871:75572] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:13:48.235 MonkeyType[1871:75572] THREAD WARNING: ['Media'] took '13.283936' ms. Plugin should use a background thread.
+2015-07-08 14:13:48.629 MonkeyType[1871:75572] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:11.489 MonkeyType[1871:75572] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F2EECD7F-3246-4FA5-A0CA-A824B5AA6A43/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:14:11.495 MonkeyType[1871:75572] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:11.891 MonkeyType[1871:75572] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:21.510 MonkeyType[1871:75572] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F2EECD7F-3246-4FA5-A0CA-A824B5AA6A43/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:14:21.515 MonkeyType[1871:75572] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:21.525 MonkeyType[1871:75572] THREAD WARNING: ['Media'] took '15.798096' ms. Plugin should use a background thread.
+2015-07-08 14:14:21.920 MonkeyType[1871:75572] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:27.354 MonkeyType[2048:76476] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/6820B91A-9893-4453-9741-1756DFF5B39D/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:14:27.413 MonkeyType[2048:76476] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:14:27.426 MonkeyType[2048:76476] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:14:27.426 MonkeyType[2048:76476] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:14:27.429 MonkeyType[2048:76476] Unlimited access to network resources
+2015-07-08 14:14:27.431 MonkeyType[2048:76476] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:14:27.518 MonkeyType[2048:76476] [CDVTimer][keyboard] 0.082970ms
+2015-07-08 14:14:27.519 MonkeyType[2048:76476] [CDVTimer][file] 1.286030ms
+2015-07-08 14:14:27.520 MonkeyType[2048:76476] Init FacebookConnect Session
+2015-07-08 14:14:27.524 MonkeyType[2048:76476] [CDVTimer][facebookconnectplugin] 4.491985ms
+2015-07-08 14:14:27.524 MonkeyType[2048:76476] [CDVTimer][TotalPluginStartup] 6.424010ms
+2015-07-08 14:14:27.597 MonkeyType[2048:76476] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:14:27.759 MonkeyType[2048:76476] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/index.html
+2015-07-08 14:14:34.282 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:14:34.288 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:34.686 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:49.747 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:14:49.753 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:14:49.764 MonkeyType[2048:76476] THREAD WARNING: ['Media'] took '16.745850' ms. Plugin should use a background thread.
+2015-07-08 14:14:50.159 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:00.130 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:15:00.136 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:00.142 MonkeyType[2048:76476] THREAD WARNING: ['Media'] took '12.248779' ms. Plugin should use a background thread.
+2015-07-08 14:15:00.536 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:10.203 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:15:10.209 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:10.217 MonkeyType[2048:76476] THREAD WARNING: ['Media'] took '14.296875' ms. Plugin should use a background thread.
+2015-07-08 14:15:10.611 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:20.250 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:15:20.256 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:20.652 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:25.495 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:15:25.501 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:25.898 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:35.493 MonkeyType[2048:76476] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/DAC544B7-C337-4677-B1BF-3F97749A1ADA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:15:35.498 MonkeyType[2048:76476] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:35.510 MonkeyType[2048:76476] THREAD WARNING: ['Media'] took '16.927979' ms. Plugin should use a background thread.
+2015-07-08 14:15:35.904 MonkeyType[2048:76476] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:15:58.767 MonkeyType[2447:78621] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/9925A502-EC59-463B-864D-76C0E27F40A9/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:15:58.816 MonkeyType[2447:78621] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:15:58.834 MonkeyType[2447:78621] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:15:58.835 MonkeyType[2447:78621] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:15:58.836 MonkeyType[2447:78621] Unlimited access to network resources
+2015-07-08 14:15:58.839 MonkeyType[2447:78621] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:15:58.901 MonkeyType[2447:78621] [CDVTimer][keyboard] 0.050008ms
+2015-07-08 14:15:58.902 MonkeyType[2447:78621] [CDVTimer][file] 0.872016ms
+2015-07-08 14:15:58.902 MonkeyType[2447:78621] Init FacebookConnect Session
+2015-07-08 14:15:58.906 MonkeyType[2447:78621] [CDVTimer][facebookconnectplugin] 4.211009ms
+2015-07-08 14:15:58.906 MonkeyType[2447:78621] [CDVTimer][TotalPluginStartup] 5.483031ms
+2015-07-08 14:15:58.972 MonkeyType[2447:78621] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:15:59.126 MonkeyType[2447:78621] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/FF09FED9-B1D4-42F6-B49C-9F7EE3424A2D/MonkeyType.app/www/index.html
+2015-07-08 14:16:07.170 MonkeyType[2447:78621] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/FF09FED9-B1D4-42F6-B49C-9F7EE3424A2D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:16:07.177 MonkeyType[2447:78621] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:16:07.185 MonkeyType[2447:78621] THREAD WARNING: ['Media'] took '15.129150' ms. Plugin should use a background thread.
+2015-07-08 14:16:07.580 MonkeyType[2447:78621] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:20:51.686 MonkeyType[2638:81617] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/4AC89507-5108-4D73-9977-D5743327E5FB/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:20:51.737 MonkeyType[2638:81617] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:20:51.757 MonkeyType[2638:81617] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:20:51.757 MonkeyType[2638:81617] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:20:51.759 MonkeyType[2638:81617] Unlimited access to network resources
+2015-07-08 14:20:51.761 MonkeyType[2638:81617] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:20:51.849 MonkeyType[2638:81617] [CDVTimer][keyboard] 0.053048ms
+2015-07-08 14:20:51.850 MonkeyType[2638:81617] [CDVTimer][file] 0.787020ms
+2015-07-08 14:20:51.850 MonkeyType[2638:81617] Init FacebookConnect Session
+2015-07-08 14:20:51.855 MonkeyType[2638:81617] [CDVTimer][facebookconnectplugin] 4.624963ms
+2015-07-08 14:20:51.855 MonkeyType[2638:81617] [CDVTimer][TotalPluginStartup] 5.885959ms
+2015-07-08 14:20:51.915 MonkeyType[2638:81617] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:20:52.082 MonkeyType[2638:81617] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C8E91661-982D-4255-84EB-0DDBC93AD6EF/MonkeyType.app/www/index.html
+2015-07-08 14:20:58.366 MonkeyType[2638:81617] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C8E91661-982D-4255-84EB-0DDBC93AD6EF/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:20:58.373 MonkeyType[2638:81617] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:20:58.769 MonkeyType[2638:81617] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:21:48.919 MonkeyType[2817:82782] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/71CDF61D-D0B8-4C4C-8250-5B98AC4C4375/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:21:48.967 MonkeyType[2817:82782] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:21:48.979 MonkeyType[2817:82782] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:21:48.979 MonkeyType[2817:82782] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:21:48.981 MonkeyType[2817:82782] Unlimited access to network resources
+2015-07-08 14:21:48.984 MonkeyType[2817:82782] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:21:49.056 MonkeyType[2817:82782] [CDVTimer][keyboard] 0.048041ms
+2015-07-08 14:21:49.057 MonkeyType[2817:82782] [CDVTimer][file] 0.863969ms
+2015-07-08 14:21:49.057 MonkeyType[2817:82782] Init FacebookConnect Session
+2015-07-08 14:21:49.060 MonkeyType[2817:82782] [CDVTimer][facebookconnectplugin] 3.543973ms
+2015-07-08 14:21:49.061 MonkeyType[2817:82782] [CDVTimer][TotalPluginStartup] 4.806995ms
+2015-07-08 14:21:49.098 MonkeyType[2817:82782] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:21:49.241 MonkeyType[2817:82782] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/68B0C35C-B350-4248-9F2E-C4CF60E5804C/MonkeyType.app/www/index.html
+2015-07-08 14:21:56.181 MonkeyType[2817:82782] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/68B0C35C-B350-4248-9F2E-C4CF60E5804C/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:21:56.187 MonkeyType[2817:82782] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:21:56.583 MonkeyType[2817:82782] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:23:01.554 MonkeyType[2999:84122] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/216C3A9A-F924-4534-858C-0AB5DF68B25A/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:23:01.614 MonkeyType[2999:84122] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:23:01.630 MonkeyType[2999:84122] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:23:01.630 MonkeyType[2999:84122] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:23:01.633 MonkeyType[2999:84122] Unlimited access to network resources
+2015-07-08 14:23:01.636 MonkeyType[2999:84122] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:23:01.720 MonkeyType[2999:84122] [CDVTimer][keyboard] 0.074983ms
+2015-07-08 14:23:01.722 MonkeyType[2999:84122] [CDVTimer][file] 1.344025ms
+2015-07-08 14:23:01.722 MonkeyType[2999:84122] Init FacebookConnect Session
+2015-07-08 14:23:01.727 MonkeyType[2999:84122] [CDVTimer][facebookconnectplugin] 5.159974ms
+2015-07-08 14:23:01.727 MonkeyType[2999:84122] [CDVTimer][TotalPluginStartup] 7.140040ms
+2015-07-08 14:23:01.771 MonkeyType[2999:84122] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:23:01.933 MonkeyType[2999:84122] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D863710E-0775-46BB-A945-91FEE29E82AF/MonkeyType.app/www/index.html
+2015-07-08 14:25:03.367 MonkeyType[2999:84122] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D863710E-0775-46BB-A945-91FEE29E82AF/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:25:03.374 MonkeyType[2999:84122] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:25:03.385 MonkeyType[2999:84122] THREAD WARNING: ['Media'] took '17.318848' ms. Plugin should use a background thread.
+2015-07-08 14:25:03.779 MonkeyType[2999:84122] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:26:14.534 MonkeyType[3185:86367] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/51EBBD62-90F7-4EE5-B7DF-112E9B03C730/Library/Cookies/Cookies.binarycookies
+2015-07-08 14:26:14.604 MonkeyType[3185:86367] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:26:14.630 MonkeyType[3185:86367] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:26:14.630 MonkeyType[3185:86367] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:26:14.633 MonkeyType[3185:86367] Unlimited access to network resources
+2015-07-08 14:26:14.635 MonkeyType[3185:86367] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:26:14.727 MonkeyType[3185:86367] [CDVTimer][keyboard] 0.074983ms
+2015-07-08 14:26:14.729 MonkeyType[3185:86367] [CDVTimer][file] 1.384974ms
+2015-07-08 14:26:14.729 MonkeyType[3185:86367] Init FacebookConnect Session
+2015-07-08 14:26:14.735 MonkeyType[3185:86367] [CDVTimer][facebookconnectplugin] 5.710006ms
+2015-07-08 14:26:14.735 MonkeyType[3185:86367] [CDVTimer][TotalPluginStartup] 7.751942ms
+2015-07-08 14:26:14.793 MonkeyType[3185:86367] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:26:14.953 MonkeyType[3185:86367] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/551EB6CC-66BA-444F-9582-E731667A83D4/MonkeyType.app/www/index.html
+2015-07-08 14:26:20.861 MonkeyType[3185:86367] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/551EB6CC-66BA-444F-9582-E731667A83D4/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:26:20.868 MonkeyType[3185:86367] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:26:20.877 MonkeyType[3185:86367] THREAD WARNING: ['Media'] took '15.410156' ms. Plugin should use a background thread.
+2015-07-08 14:26:21.271 MonkeyType[3185:86367] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:26:28.543 MonkeyType[3185:86367] THREAD WARNING: ['FacebookConnectPlugin'] took '37.488770' ms. Plugin should use a background thread.
+2015-07-08 14:26:34.767 MonkeyType[3185:86367] THREAD WARNING: ['FacebookConnectPlugin'] took '49.964111' ms. Plugin should use a background thread.
+2015-07-08 14:40:16.255 MonkeyType[3440:93656] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:40:16.280 MonkeyType[3440:93656] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:40:16.280 MonkeyType[3440:93656] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:40:16.283 MonkeyType[3440:93656] Unlimited access to network resources
+2015-07-08 14:40:16.285 MonkeyType[3440:93656] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:40:16.356 MonkeyType[3440:93656] [CDVTimer][keyboard] 0.065029ms
+2015-07-08 14:40:16.357 MonkeyType[3440:93656] [CDVTimer][file] 1.493990ms
+2015-07-08 14:40:16.358 MonkeyType[3440:93656] Init FacebookConnect Session
+2015-07-08 14:40:16.361 MonkeyType[3440:93656] [CDVTimer][facebookconnectplugin] 3.956974ms
+2015-07-08 14:40:16.362 MonkeyType[3440:93656] [CDVTimer][TotalPluginStartup] 5.999029ms
+2015-07-08 14:40:16.399 MonkeyType[3440:93656] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:40:16.656 MonkeyType[3440:93656] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/06E11A9E-D572-4AFB-8F81-15C016DBA4E6/MonkeyType.app/www/index.html
+2015-07-08 14:40:23.904 MonkeyType[3440:93656] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/06E11A9E-D572-4AFB-8F81-15C016DBA4E6/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:40:23.911 MonkeyType[3440:93656] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:40:23.922 MonkeyType[3440:93656] THREAD WARNING: ['Media'] took '18.041748' ms. Plugin should use a background thread.
+2015-07-08 14:40:24.316 MonkeyType[3440:93656] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:40:38.327 MonkeyType[3620:94432] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:40:38.339 MonkeyType[3620:94432] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:40:38.339 MonkeyType[3620:94432] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:40:38.341 MonkeyType[3620:94432] Unlimited access to network resources
+2015-07-08 14:40:38.343 MonkeyType[3620:94432] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:40:38.419 MonkeyType[3620:94432] [CDVTimer][keyboard] 0.063002ms
+2015-07-08 14:40:38.420 MonkeyType[3620:94432] [CDVTimer][file] 0.862002ms
+2015-07-08 14:40:38.420 MonkeyType[3620:94432] Init FacebookConnect Session
+2015-07-08 14:40:38.424 MonkeyType[3620:94432] [CDVTimer][facebookconnectplugin] 3.812015ms
+2015-07-08 14:40:38.424 MonkeyType[3620:94432] [CDVTimer][TotalPluginStartup] 5.198002ms
+2015-07-08 14:40:38.465 MonkeyType[3620:94432] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:40:38.607 MonkeyType[3620:94432] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/6BBAC886-0319-4C4B-8B7D-4AB40BAC1EFF/MonkeyType.app/www/index.html
+2015-07-08 14:40:49.970 MonkeyType[3620:94432] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/6BBAC886-0319-4C4B-8B7D-4AB40BAC1EFF/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:40:49.977 MonkeyType[3620:94432] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:40:49.986 MonkeyType[3620:94432] THREAD WARNING: ['Media'] took '15.323730' ms. Plugin should use a background thread.
+2015-07-08 14:40:50.380 MonkeyType[3620:94432] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:40:58.991 MonkeyType[3794:95161] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:40:59.008 MonkeyType[3794:95161] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:40:59.009 MonkeyType[3794:95161] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:40:59.011 MonkeyType[3794:95161] Unlimited access to network resources
+2015-07-08 14:40:59.013 MonkeyType[3794:95161] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:40:59.103 MonkeyType[3794:95161] [CDVTimer][keyboard] 0.051022ms
+2015-07-08 14:40:59.104 MonkeyType[3794:95161] [CDVTimer][file] 0.809014ms
+2015-07-08 14:40:59.104 MonkeyType[3794:95161] Init FacebookConnect Session
+2015-07-08 14:40:59.108 MonkeyType[3794:95161] [CDVTimer][facebookconnectplugin] 4.010975ms
+2015-07-08 14:40:59.108 MonkeyType[3794:95161] [CDVTimer][TotalPluginStartup] 5.227029ms
+2015-07-08 14:40:59.155 MonkeyType[3794:95161] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:40:59.336 MonkeyType[3794:95161] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/index.html
+2015-07-08 14:41:06.321 MonkeyType[3794:95161] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:41:06.328 MonkeyType[3794:95161] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:06.336 MonkeyType[3794:95161] THREAD WARNING: ['Media'] took '14.990234' ms. Plugin should use a background thread.
+2015-07-08 14:41:06.730 MonkeyType[3794:95161] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:24.151 MonkeyType[3794:95161] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:41:24.157 MonkeyType[3794:95161] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:24.165 MonkeyType[3794:95161] THREAD WARNING: ['Media'] took '14.157227' ms. Plugin should use a background thread.
+2015-07-08 14:41:24.559 MonkeyType[3794:95161] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:48.418 MonkeyType[3794:95161] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:41:48.424 MonkeyType[3794:95161] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:48.819 MonkeyType[3794:95161] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:58.455 MonkeyType[3794:95161] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:41:58.460 MonkeyType[3794:95161] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:41:58.465 MonkeyType[3794:95161] THREAD WARNING: ['Media'] took '10.370117' ms. Plugin should use a background thread.
+2015-07-08 14:41:58.860 MonkeyType[3794:95161] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:08.473 MonkeyType[3794:95161] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/212AFD87-576A-4F99-8FFB-49287B2CB170/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:42:08.479 MonkeyType[3794:95161] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:08.877 MonkeyType[3794:95161] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:18.443 MonkeyType[3972:96319] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:42:18.458 MonkeyType[3972:96319] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:42:18.458 MonkeyType[3972:96319] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:42:18.461 MonkeyType[3972:96319] Unlimited access to network resources
+2015-07-08 14:42:18.463 MonkeyType[3972:96319] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:42:18.523 MonkeyType[3972:96319] [CDVTimer][keyboard] 0.055969ms
+2015-07-08 14:42:18.524 MonkeyType[3972:96319] [CDVTimer][file] 0.832975ms
+2015-07-08 14:42:18.524 MonkeyType[3972:96319] Init FacebookConnect Session
+2015-07-08 14:42:18.528 MonkeyType[3972:96319] [CDVTimer][facebookconnectplugin] 3.754973ms
+2015-07-08 14:42:18.528 MonkeyType[3972:96319] [CDVTimer][TotalPluginStartup] 4.987001ms
+2015-07-08 14:42:18.569 MonkeyType[3972:96319] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:42:18.706 MonkeyType[3972:96319] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/3F4E1F7E-B8FB-4969-B8BB-51A5E96BFEE6/MonkeyType.app/www/index.html
+2015-07-08 14:42:25.606 MonkeyType[3972:96319] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/3F4E1F7E-B8FB-4969-B8BB-51A5E96BFEE6/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:42:25.612 MonkeyType[3972:96319] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:25.618 MonkeyType[3972:96319] THREAD WARNING: ['Media'] took '12.268799' ms. Plugin should use a background thread.
+2015-07-08 14:42:26.012 MonkeyType[3972:96319] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:32.373 MonkeyType[4150:96893] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:42:32.404 MonkeyType[4150:96893] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:42:32.404 MonkeyType[4150:96893] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:42:32.406 MonkeyType[4150:96893] Unlimited access to network resources
+2015-07-08 14:42:32.409 MonkeyType[4150:96893] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:42:32.499 MonkeyType[4150:96893] [CDVTimer][keyboard] 0.054002ms
+2015-07-08 14:42:32.500 MonkeyType[4150:96893] [CDVTimer][file] 0.786006ms
+2015-07-08 14:42:32.500 MonkeyType[4150:96893] Init FacebookConnect Session
+2015-07-08 14:42:32.504 MonkeyType[4150:96893] [CDVTimer][facebookconnectplugin] 4.383981ms
+2015-07-08 14:42:32.504 MonkeyType[4150:96893] [CDVTimer][TotalPluginStartup] 5.643964ms
+2015-07-08 14:42:32.551 MonkeyType[4150:96893] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:42:32.749 MonkeyType[4150:96893] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/BE451535-1CED-44C5-BFCE-9DD5E9082C57/MonkeyType.app/www/index.html
+2015-07-08 14:42:39.915 MonkeyType[4150:96893] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/BE451535-1CED-44C5-BFCE-9DD5E9082C57/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:42:39.922 MonkeyType[4150:96893] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:40.318 MonkeyType[4150:96893] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:42:58.810 MonkeyType[4321:97645] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:42:58.829 MonkeyType[4321:97645] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:42:58.829 MonkeyType[4321:97645] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:42:58.831 MonkeyType[4321:97645] Unlimited access to network resources
+2015-07-08 14:42:58.833 MonkeyType[4321:97645] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:42:58.900 MonkeyType[4321:97645] [CDVTimer][keyboard] 0.052989ms
+2015-07-08 14:42:58.901 MonkeyType[4321:97645] [CDVTimer][file] 0.791013ms
+2015-07-08 14:42:58.902 MonkeyType[4321:97645] Init FacebookConnect Session
+2015-07-08 14:42:58.905 MonkeyType[4321:97645] [CDVTimer][facebookconnectplugin] 3.614008ms
+2015-07-08 14:42:58.905 MonkeyType[4321:97645] [CDVTimer][TotalPluginStartup] 4.831970ms
+2015-07-08 14:42:58.950 MonkeyType[4321:97645] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:42:59.091 MonkeyType[4321:97645] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/A218D5D4-B72F-4475-821B-DA4AE556F9AD/MonkeyType.app/www/index.html
+2015-07-08 14:43:05.864 MonkeyType[4321:97645] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/A218D5D4-B72F-4475-821B-DA4AE556F9AD/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:43:05.870 MonkeyType[4321:97645] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:43:05.874 MonkeyType[4321:97645] THREAD WARNING: ['Media'] took '10.326172' ms. Plugin should use a background thread.
+2015-07-08 14:43:06.269 MonkeyType[4321:97645] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:43:34.583 MonkeyType[4495:98376] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:43:34.620 MonkeyType[4495:98376] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:43:34.621 MonkeyType[4495:98376] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:43:34.623 MonkeyType[4495:98376] Unlimited access to network resources
+2015-07-08 14:43:34.626 MonkeyType[4495:98376] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:43:34.712 MonkeyType[4495:98376] [CDVTimer][keyboard] 0.054002ms
+2015-07-08 14:43:34.713 MonkeyType[4495:98376] [CDVTimer][file] 0.824034ms
+2015-07-08 14:43:34.713 MonkeyType[4495:98376] Init FacebookConnect Session
+2015-07-08 14:43:34.717 MonkeyType[4495:98376] [CDVTimer][facebookconnectplugin] 3.784001ms
+2015-07-08 14:43:34.717 MonkeyType[4495:98376] [CDVTimer][TotalPluginStartup] 5.012989ms
+2015-07-08 14:43:34.770 MonkeyType[4495:98376] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:43:34.945 MonkeyType[4495:98376] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/03CA6D0A-8F99-4703-9B55-997E9551EA88/MonkeyType.app/www/index.html
+2015-07-08 14:43:42.144 MonkeyType[4495:98376] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/03CA6D0A-8F99-4703-9B55-997E9551EA88/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:43:42.150 MonkeyType[4495:98376] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:43:42.159 MonkeyType[4495:98376] THREAD WARNING: ['Media'] took '15.458252' ms. Plugin should use a background thread.
+2015-07-08 14:43:42.554 MonkeyType[4495:98376] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:43:47.898 MonkeyType[4672:98958] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:43:47.916 MonkeyType[4672:98958] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:43:47.916 MonkeyType[4672:98958] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:43:47.918 MonkeyType[4672:98958] Unlimited access to network resources
+2015-07-08 14:43:47.920 MonkeyType[4672:98958] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:43:47.987 MonkeyType[4672:98958] [CDVTimer][keyboard] 0.052035ms
+2015-07-08 14:43:47.988 MonkeyType[4672:98958] [CDVTimer][file] 0.802994ms
+2015-07-08 14:43:47.989 MonkeyType[4672:98958] Init FacebookConnect Session
+2015-07-08 14:43:47.993 MonkeyType[4672:98958] [CDVTimer][facebookconnectplugin] 4.401982ms
+2015-07-08 14:43:47.993 MonkeyType[4672:98958] [CDVTimer][TotalPluginStartup] 5.832970ms
+2015-07-08 14:43:48.053 MonkeyType[4672:98958] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:43:48.238 MonkeyType[4672:98958] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F6412452-5CE8-4075-8C15-FDBB8B85A5C6/MonkeyType.app/www/index.html
+2015-07-08 14:44:42.048 MonkeyType[4672:98958] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F6412452-5CE8-4075-8C15-FDBB8B85A5C6/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:44:42.054 MonkeyType[4672:98958] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:44:42.065 MonkeyType[4672:98958] THREAD WARNING: ['Media'] took '17.436035' ms. Plugin should use a background thread.
+2015-07-08 14:44:42.460 MonkeyType[4672:98958] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:44:43.849 MonkeyType[4844:99873] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:44:43.866 MonkeyType[4844:99873] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:44:43.866 MonkeyType[4844:99873] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:44:43.868 MonkeyType[4844:99873] Unlimited access to network resources
+2015-07-08 14:44:43.871 MonkeyType[4844:99873] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:44:43.962 MonkeyType[4844:99873] [CDVTimer][keyboard] 0.057995ms
+2015-07-08 14:44:43.963 MonkeyType[4844:99873] [CDVTimer][file] 0.824988ms
+2015-07-08 14:44:43.963 MonkeyType[4844:99873] Init FacebookConnect Session
+2015-07-08 14:44:43.967 MonkeyType[4844:99873] [CDVTimer][facebookconnectplugin] 4.292965ms
+2015-07-08 14:44:43.967 MonkeyType[4844:99873] [CDVTimer][TotalPluginStartup] 5.599022ms
+2015-07-08 14:44:44.026 MonkeyType[4844:99873] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:44:44.196 MonkeyType[4844:99873] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/A2787CD3-94B6-48A2-B043-DE2E86281117/MonkeyType.app/www/index.html
+2015-07-08 14:44:50.902 MonkeyType[4844:99873] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/A2787CD3-94B6-48A2-B043-DE2E86281117/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:44:50.908 MonkeyType[4844:99873] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:44:50.915 MonkeyType[4844:99873] THREAD WARNING: ['Media'] took '13.382080' ms. Plugin should use a background thread.
+2015-07-08 14:44:51.309 MonkeyType[4844:99873] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:44:52.154 MonkeyType[4844:100008] Terminating since there is no system app.
+2015-07-08 14:47:28.045 MonkeyType[5074:102623] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:47:28.060 MonkeyType[5074:102623] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:47:28.060 MonkeyType[5074:102623] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:47:28.063 MonkeyType[5074:102623] Unlimited access to network resources
+2015-07-08 14:47:28.066 MonkeyType[5074:102623] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:47:28.137 MonkeyType[5074:102623] [CDVTimer][keyboard] 0.061989ms
+2015-07-08 14:47:28.139 MonkeyType[5074:102623] [CDVTimer][file] 1.836956ms
+2015-07-08 14:47:28.139 MonkeyType[5074:102623] Init FacebookConnect Session
+2015-07-08 14:47:28.143 MonkeyType[5074:102623] [CDVTimer][facebookconnectplugin] 4.393995ms
+2015-07-08 14:47:28.143 MonkeyType[5074:102623] [CDVTimer][TotalPluginStartup] 6.671011ms
+2015-07-08 14:47:28.186 MonkeyType[5074:102623] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:47:28.441 MonkeyType[5074:102623] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D1718ED0-E0B4-404B-8AB1-01CA137E54CA/MonkeyType.app/www/index.html
+2015-07-08 14:47:35.083 MonkeyType[5074:102623] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D1718ED0-E0B4-404B-8AB1-01CA137E54CA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:47:35.090 MonkeyType[5074:102623] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:47:35.094 MonkeyType[5074:102623] THREAD WARNING: ['Media'] took '11.722168' ms. Plugin should use a background thread.
+2015-07-08 14:47:35.488 MonkeyType[5074:102623] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:48:47.153 MonkeyType[5269:104225] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 14:48:47.183 MonkeyType[5269:104225] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 14:48:47.183 MonkeyType[5269:104225] Multi-tasking -> Device: YES, App: YES
+2015-07-08 14:48:47.185 MonkeyType[5269:104225] Unlimited access to network resources
+2015-07-08 14:48:47.188 MonkeyType[5269:104225] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 14:48:47.277 MonkeyType[5269:104225] [CDVTimer][keyboard] 0.062048ms
+2015-07-08 14:48:47.278 MonkeyType[5269:104225] [CDVTimer][file] 0.849009ms
+2015-07-08 14:48:47.278 MonkeyType[5269:104225] Init FacebookConnect Session
+2015-07-08 14:48:47.282 MonkeyType[5269:104225] [CDVTimer][facebookconnectplugin] 4.446983ms
+2015-07-08 14:48:47.282 MonkeyType[5269:104225] [CDVTimer][TotalPluginStartup] 5.765021ms
+2015-07-08 14:48:47.332 MonkeyType[5269:104225] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 14:48:47.522 MonkeyType[5269:104225] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/6C595045-4E6F-42B7-95E0-FFF49A028F18/MonkeyType.app/www/index.html
+2015-07-08 14:48:54.451 MonkeyType[5269:104225] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/6C595045-4E6F-42B7-95E0-FFF49A028F18/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 14:48:54.458 MonkeyType[5269:104225] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 14:48:54.854 MonkeyType[5269:104225] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:06:19.684 MonkeyType[5553:114619] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:06:19.728 MonkeyType[5553:114619] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:06:19.729 MonkeyType[5553:114619] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:06:19.740 MonkeyType[5553:114619] Unlimited access to network resources
+2015-07-08 15:06:19.750 MonkeyType[5553:114619] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:06:19.957 MonkeyType[5553:114619] [CDVTimer][keyboard] 0.072002ms
+2015-07-08 15:06:19.959 MonkeyType[5553:114619] [CDVTimer][file] 1.825988ms
+2015-07-08 15:06:19.959 MonkeyType[5553:114619] Init FacebookConnect Session
+2015-07-08 15:06:19.984 MonkeyType[5553:114619] [CDVTimer][facebookconnectplugin] 24.810016ms
+2015-07-08 15:06:19.984 MonkeyType[5553:114619] [CDVTimer][TotalPluginStartup] 27.130961ms
+2015-07-08 15:06:20.210 MonkeyType[5553:114619] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:06:20.701 MonkeyType[5553:114619] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/3EB18822-050A-4E57-9FBB-1C554345128D/MonkeyType.app/www/index.html
+2015-07-08 15:06:27.809 MonkeyType[5553:114619] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/3EB18822-050A-4E57-9FBB-1C554345128D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:06:27.824 MonkeyType[5553:114619] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:06:27.835 MonkeyType[5553:114619] THREAD WARNING: ['Media'] took '26.671875' ms. Plugin should use a background thread.
+2015-07-08 15:06:28.232 MonkeyType[5553:114619] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:10:40.769 MonkeyType[5754:117976] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:10:40.788 MonkeyType[5754:117976] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:10:40.789 MonkeyType[5754:117976] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:10:40.791 MonkeyType[5754:117976] Unlimited access to network resources
+2015-07-08 15:10:40.794 MonkeyType[5754:117976] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:10:40.874 MonkeyType[5754:117976] [CDVTimer][keyboard] 0.057042ms
+2015-07-08 15:10:40.876 MonkeyType[5754:117976] [CDVTimer][file] 1.389027ms
+2015-07-08 15:10:40.876 MonkeyType[5754:117976] Init FacebookConnect Session
+2015-07-08 15:10:40.881 MonkeyType[5754:117976] [CDVTimer][facebookconnectplugin] 5.353987ms
+2015-07-08 15:10:40.882 MonkeyType[5754:117976] [CDVTimer][TotalPluginStartup] 7.290959ms
+2015-07-08 15:10:40.978 MonkeyType[5754:117976] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:10:41.131 MonkeyType[5754:117976] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/038673AA-1169-4FAD-9BE4-3653B9C317A9/MonkeyType.app/www/index.html
+2015-07-08 15:10:48.217 MonkeyType[5754:117976] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/038673AA-1169-4FAD-9BE4-3653B9C317A9/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:10:48.223 MonkeyType[5754:117976] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:10:48.236 MonkeyType[5754:117976] THREAD WARNING: ['Media'] took '18.442139' ms. Plugin should use a background thread.
+2015-07-08 15:10:48.630 MonkeyType[5754:117976] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:15:30.063 MonkeyType[5945:120778] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:15:30.079 MonkeyType[5945:120778] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:15:30.079 MonkeyType[5945:120778] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:15:30.081 MonkeyType[5945:120778] Unlimited access to network resources
+2015-07-08 15:15:30.083 MonkeyType[5945:120778] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:15:30.156 MonkeyType[5945:120778] [CDVTimer][keyboard] 0.054002ms
+2015-07-08 15:15:30.157 MonkeyType[5945:120778] [CDVTimer][file] 0.826001ms
+2015-07-08 15:15:30.157 MonkeyType[5945:120778] Init FacebookConnect Session
+2015-07-08 15:15:30.162 MonkeyType[5945:120778] [CDVTimer][facebookconnectplugin] 4.055023ms
+2015-07-08 15:15:30.162 MonkeyType[5945:120778] [CDVTimer][TotalPluginStartup] 5.312026ms
+2015-07-08 15:15:30.204 MonkeyType[5945:120778] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:15:30.343 MonkeyType[5945:120778] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/186E3BEC-36FE-4459-9459-A268EA9EE1AA/MonkeyType.app/www/index.html
+2015-07-08 15:15:42.759 MonkeyType[5945:120778] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/186E3BEC-36FE-4459-9459-A268EA9EE1AA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:15:42.765 MonkeyType[5945:120778] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:15:43.164 MonkeyType[5945:120778] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:15:54.146 MonkeyType[5945:120778] THREAD WARNING: ['FacebookConnectPlugin'] took '57.468994' ms. Plugin should use a background thread.
+2015-07-08 15:16:26.363 MonkeyType[5945:120778] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-08 15:21:37.299 MonkeyType[6147:125322] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/42BD2C1C-911C-464F-A867-BA9012B95F7B/Library/Cookies/Cookies.binarycookies
+2015-07-08 15:21:37.365 MonkeyType[6147:125322] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:21:37.387 MonkeyType[6147:125322] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:21:37.387 MonkeyType[6147:125322] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:21:37.389 MonkeyType[6147:125322] Unlimited access to network resources
+2015-07-08 15:21:37.392 MonkeyType[6147:125322] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:21:37.481 MonkeyType[6147:125322] [CDVTimer][keyboard] 0.056982ms
+2015-07-08 15:21:37.484 MonkeyType[6147:125322] [CDVTimer][file] 1.906991ms
+2015-07-08 15:21:37.484 MonkeyType[6147:125322] Init FacebookConnect Session
+2015-07-08 15:21:37.489 MonkeyType[6147:125322] [CDVTimer][facebookconnectplugin] 5.025029ms
+2015-07-08 15:21:37.489 MonkeyType[6147:125322] [CDVTimer][TotalPluginStartup] 7.826030ms
+2015-07-08 15:21:37.577 MonkeyType[6147:125322] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:21:37.770 MonkeyType[6147:125322] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/CD5D90BB-09D5-4D4D-BF39-8B6191B7F4C2/MonkeyType.app/www/index.html
+2015-07-08 15:21:44.529 MonkeyType[6147:125322] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/CD5D90BB-09D5-4D4D-BF39-8B6191B7F4C2/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:21:44.535 MonkeyType[6147:125322] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:21:44.541 MonkeyType[6147:125322] THREAD WARNING: ['Media'] took '12.145020' ms. Plugin should use a background thread.
+2015-07-08 15:21:44.936 MonkeyType[6147:125322] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:21:52.554 MonkeyType[6147:125322] THREAD WARNING: ['FacebookConnectPlugin'] took '10.195068' ms. Plugin should use a background thread.
+2015-07-08 15:21:55.567 MonkeyType[6147:125322] Graph Path = undefined/?fields=id,first_name
+2015-07-08 15:24:36.479 MonkeyType[6339:127789] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/6A20B3E3-6A23-4FDE-A39E-7A25E2CDB331/Library/Cookies/Cookies.binarycookies
+2015-07-08 15:24:36.538 MonkeyType[6339:127789] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:24:36.560 MonkeyType[6339:127789] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:24:36.561 MonkeyType[6339:127789] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:24:36.563 MonkeyType[6339:127789] Unlimited access to network resources
+2015-07-08 15:24:36.566 MonkeyType[6339:127789] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:24:36.659 MonkeyType[6339:127789] [CDVTimer][keyboard] 0.055015ms
+2015-07-08 15:24:36.660 MonkeyType[6339:127789] [CDVTimer][file] 0.783026ms
+2015-07-08 15:24:36.660 MonkeyType[6339:127789] Init FacebookConnect Session
+2015-07-08 15:24:36.664 MonkeyType[6339:127789] [CDVTimer][facebookconnectplugin] 4.293025ms
+2015-07-08 15:24:36.664 MonkeyType[6339:127789] [CDVTimer][TotalPluginStartup] 5.498052ms
+2015-07-08 15:24:36.738 MonkeyType[6339:127789] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:24:36.895 MonkeyType[6339:127789] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0167E249-DCFE-4214-8BD3-202A650597F1/MonkeyType.app/www/index.html
+2015-07-08 15:24:38.319 MonkeyType[6339:127793] [Fabric] failed to download settings Error Domain=NSURLErrorDomain Code=-1100 "The requested URL was not found on this server." UserInfo=0x7af61920 {NSErrorFailingURLStringKey=https://settings.crashlytics.com/spi/v2/platforms/ios/apps/com.langfight.monkeytype/settings?build_version=0.1.REPLACEME&display_version=0.1.REPLACEME&instance=17e910e2d19d2926cc75459a4ac5653ce36b0aeb&icon_hash=e1ac4a0ee6902034a9b76869ead1c6a36e76bc7a&source=1, NSErrorFailingURLKey=https://settings.crashlytics.com/spi/v2/platforms/ios/apps/com.langfight.monkeytype/settings?build_version=0.1.REPLACEME&display_version=0.1.REPLACEME&instance=17e910e2d19d2926cc75459a4ac5653ce36b0aeb&icon_hash=e1ac4a0ee6902034a9b76869ead1c6a36e76bc7a&source=1, NSLocalizedDescription=The requested URL was not found on this server., NSURLSessionDownloadTaskResumeData=<CFData 0x7e680480 [0x7cb808]>{length = 6509, capacity = 16384, bytes = 0x3c3f786d6c2076657273696f6e3d2231 ... 2f706c6973743e0a}}
+2015-07-08 15:24:43.802 MonkeyType[6339:127789] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0167E249-DCFE-4214-8BD3-202A650597F1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:24:43.808 MonkeyType[6339:127789] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:24:44.206 MonkeyType[6339:127789] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:24:54.353 MonkeyType[6339:127789] Graph Path = /undefined/?fields=id,first_name
+2015-07-08 15:25:48.970 MonkeyType[6523:128915] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/41BA00AE-C531-4557-AB20-279BDF50B2BA/Library/Cookies/Cookies.binarycookies
+2015-07-08 15:25:49.027 MonkeyType[6523:128915] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:25:49.043 MonkeyType[6523:128915] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:25:49.043 MonkeyType[6523:128915] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:25:49.045 MonkeyType[6523:128915] Unlimited access to network resources
+2015-07-08 15:25:49.047 MonkeyType[6523:128915] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:25:49.131 MonkeyType[6523:128915] [CDVTimer][keyboard] 0.083029ms
+2015-07-08 15:25:49.133 MonkeyType[6523:128915] [CDVTimer][file] 0.922978ms
+2015-07-08 15:25:49.133 MonkeyType[6523:128915] Init FacebookConnect Session
+2015-07-08 15:25:49.137 MonkeyType[6523:128915] [CDVTimer][facebookconnectplugin] 4.351020ms
+2015-07-08 15:25:49.137 MonkeyType[6523:128915] [CDVTimer][TotalPluginStartup] 5.855024ms
+2015-07-08 15:25:49.210 MonkeyType[6523:128915] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:25:49.386 MonkeyType[6523:128915] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D88429C4-0545-4187-ADE7-ECE4B347FEAF/MonkeyType.app/www/index.html
+2015-07-08 15:25:56.880 MonkeyType[6523:128915] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D88429C4-0545-4187-ADE7-ECE4B347FEAF/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:25:56.886 MonkeyType[6523:128915] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:25:56.897 MonkeyType[6523:128915] THREAD WARNING: ['Media'] took '17.368652' ms. Plugin should use a background thread.
+2015-07-08 15:25:57.291 MonkeyType[6523:128915] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:26:06.884 MonkeyType[6523:128915] THREAD WARNING: ['FacebookConnectPlugin'] took '68.541016' ms. Plugin should use a background thread.
+2015-07-08 15:27:30.399 MonkeyType[6710:130447] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:27:30.416 MonkeyType[6710:130447] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:27:30.416 MonkeyType[6710:130447] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:27:30.418 MonkeyType[6710:130447] Unlimited access to network resources
+2015-07-08 15:27:30.420 MonkeyType[6710:130447] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:27:30.497 MonkeyType[6710:130447] [CDVTimer][keyboard] 0.054002ms
+2015-07-08 15:27:30.498 MonkeyType[6710:130447] [CDVTimer][file] 0.773966ms
+2015-07-08 15:27:30.498 MonkeyType[6710:130447] Init FacebookConnect Session
+2015-07-08 15:27:30.503 MonkeyType[6710:130447] [CDVTimer][facebookconnectplugin] 4.172027ms
+2015-07-08 15:27:30.503 MonkeyType[6710:130447] [CDVTimer][TotalPluginStartup] 5.436957ms
+2015-07-08 15:27:30.546 MonkeyType[6710:130447] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:27:30.704 MonkeyType[6710:130447] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/B498C786-B718-4B89-872A-D1C5C9BEAB0C/MonkeyType.app/www/index.html
+2015-07-08 15:29:10.437 MonkeyType[6892:131940] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:29:10.453 MonkeyType[6892:131940] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:29:10.454 MonkeyType[6892:131940] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:29:10.456 MonkeyType[6892:131940] Unlimited access to network resources
+2015-07-08 15:29:10.458 MonkeyType[6892:131940] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:29:10.530 MonkeyType[6892:131940] [CDVTimer][keyboard] 0.050962ms
+2015-07-08 15:29:10.531 MonkeyType[6892:131940] [CDVTimer][file] 0.801027ms
+2015-07-08 15:29:10.531 MonkeyType[6892:131940] Init FacebookConnect Session
+2015-07-08 15:29:10.535 MonkeyType[6892:131940] [CDVTimer][facebookconnectplugin] 3.764987ms
+2015-07-08 15:29:10.535 MonkeyType[6892:131940] [CDVTimer][TotalPluginStartup] 5.070031ms
+2015-07-08 15:29:10.588 MonkeyType[6892:131940] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:29:10.751 MonkeyType[6892:131940] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/882E65E3-98A2-42C6-B82E-B67642C27ADE/MonkeyType.app/www/index.html
+2015-07-08 15:29:17.645 MonkeyType[6892:131940] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/882E65E3-98A2-42C6-B82E-B67642C27ADE/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:29:17.652 MonkeyType[6892:131940] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:29:17.657 MonkeyType[6892:131940] THREAD WARNING: ['Media'] took '12.285889' ms. Plugin should use a background thread.
+2015-07-08 15:29:18.052 MonkeyType[6892:131940] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:29:25.071 MonkeyType[6892:131940] THREAD WARNING: ['FacebookConnectPlugin'] took '56.684814' ms. Plugin should use a background thread.
+2015-07-08 15:29:28.605 MonkeyType[6892:131940] THREAD WARNING: ['FacebookConnectPlugin'] took '44.629150' ms. Plugin should use a background thread.
+2015-07-08 15:30:20.271 MonkeyType[6892:131940] THREAD WARNING: ['FacebookConnectPlugin'] took '48.766846' ms. Plugin should use a background thread.
+2015-07-08 15:30:20.878 MonkeyType[6892:131940] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-08 15:30:23.190 MonkeyType[6892:131940] THREAD WARNING: ['FacebookConnectPlugin'] took '42.454834' ms. Plugin should use a background thread.
+2015-07-08 15:31:02.307 MonkeyType[7079:133733] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:31:02.322 MonkeyType[7079:133733] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:31:02.322 MonkeyType[7079:133733] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:31:02.324 MonkeyType[7079:133733] Unlimited access to network resources
+2015-07-08 15:31:02.326 MonkeyType[7079:133733] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:31:02.388 MonkeyType[7079:133733] [CDVTimer][keyboard] 0.048041ms
+2015-07-08 15:31:02.389 MonkeyType[7079:133733] [CDVTimer][file] 0.783026ms
+2015-07-08 15:31:02.389 MonkeyType[7079:133733] Init FacebookConnect Session
+2015-07-08 15:31:02.394 MonkeyType[7079:133733] [CDVTimer][facebookconnectplugin] 4.698992ms
+2015-07-08 15:31:02.394 MonkeyType[7079:133733] [CDVTimer][TotalPluginStartup] 5.936027ms
+2015-07-08 15:31:02.436 MonkeyType[7079:133733] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:31:02.618 MonkeyType[7079:133733] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/576773F7-5497-43D0-850E-FFF4A56AA4EE/MonkeyType.app/www/index.html
+2015-07-08 15:31:14.038 MonkeyType[7079:133733] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/576773F7-5497-43D0-850E-FFF4A56AA4EE/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:31:14.044 MonkeyType[7079:133733] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:14.053 MonkeyType[7079:133733] THREAD WARNING: ['Media'] took '15.553955' ms. Plugin should use a background thread.
+2015-07-08 15:31:14.448 MonkeyType[7079:133733] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:26.473 MonkeyType[7079:133733] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/576773F7-5497-43D0-850E-FFF4A56AA4EE/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:31:26.479 MonkeyType[7079:133733] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:26.485 MonkeyType[7079:133733] THREAD WARNING: ['Media'] took '11.563965' ms. Plugin should use a background thread.
+2015-07-08 15:31:26.879 MonkeyType[7079:133733] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:34.490 MonkeyType[7079:133733] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/576773F7-5497-43D0-850E-FFF4A56AA4EE/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:31:34.495 MonkeyType[7079:133733] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:34.505 MonkeyType[7079:133733] THREAD WARNING: ['Media'] took '15.858887' ms. Plugin should use a background thread.
+2015-07-08 15:31:34.900 MonkeyType[7079:133733] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:31:53.239 MonkeyType[7303:134959] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:31:53.254 MonkeyType[7303:134959] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:31:53.254 MonkeyType[7303:134959] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:31:53.257 MonkeyType[7303:134959] Unlimited access to network resources
+2015-07-08 15:31:53.259 MonkeyType[7303:134959] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:31:53.331 MonkeyType[7303:134959] [CDVTimer][keyboard] 0.049949ms
+2015-07-08 15:31:53.332 MonkeyType[7303:134959] [CDVTimer][file] 0.784993ms
+2015-07-08 15:31:53.332 MonkeyType[7303:134959] Init FacebookConnect Session
+2015-07-08 15:31:53.336 MonkeyType[7303:134959] [CDVTimer][facebookconnectplugin] 4.012048ms
+2015-07-08 15:31:53.336 MonkeyType[7303:134959] [CDVTimer][TotalPluginStartup] 5.178988ms
+2015-07-08 15:31:53.379 MonkeyType[7303:134959] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:31:54.866 MonkeyType[7303:134959] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/71F9F142-34EF-4B2A-8CEB-9C624159BE6D/MonkeyType.app/www/index.html
+2015-07-08 15:32:04.326 MonkeyType[7483:135645] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:32:04.340 MonkeyType[7483:135645] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:32:04.341 MonkeyType[7483:135645] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:32:04.343 MonkeyType[7483:135645] Unlimited access to network resources
+2015-07-08 15:32:04.345 MonkeyType[7483:135645] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:32:04.407 MonkeyType[7483:135645] [CDVTimer][keyboard] 0.050962ms
+2015-07-08 15:32:04.408 MonkeyType[7483:135645] [CDVTimer][file] 0.806034ms
+2015-07-08 15:32:04.408 MonkeyType[7483:135645] Init FacebookConnect Session
+2015-07-08 15:32:04.412 MonkeyType[7483:135645] [CDVTimer][facebookconnectplugin] 3.832996ms
+2015-07-08 15:32:04.412 MonkeyType[7483:135645] [CDVTimer][TotalPluginStartup] 5.073965ms
+2015-07-08 15:32:04.465 MonkeyType[7483:135645] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:32:04.605 MonkeyType[7483:135645] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/898B95C9-1C49-4438-9B13-F14600AEDDD3/MonkeyType.app/www/index.html
+2015-07-08 15:32:11.343 MonkeyType[7483:135645] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/898B95C9-1C49-4438-9B13-F14600AEDDD3/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:32:11.349 MonkeyType[7483:135645] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:32:11.355 MonkeyType[7483:135645] THREAD WARNING: ['Media'] took '12.744141' ms. Plugin should use a background thread.
+2015-07-08 15:32:11.750 MonkeyType[7483:135645] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:32:29.681 MonkeyType[7483:135645] THREAD WARNING: ['FacebookConnectPlugin'] took '31.191162' ms. Plugin should use a background thread.
+2015-07-08 15:32:29.731 MonkeyType[7483:135645] THREAD WARNING: ['FacebookConnectPlugin'] took '49.135010' ms. Plugin should use a background thread.
+2015-07-08 15:32:34.065 MonkeyType[7483:135645] THREAD WARNING: ['FacebookConnectPlugin'] took '41.044922' ms. Plugin should use a background thread.
+2015-07-08 15:56:20.383 MonkeyType[7907:149489] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Data/Application/3AC85D54-6E07-4152-BC21-5EFC14D13457/Library/Cookies/Cookies.binarycookies
+2015-07-08 15:56:20.630 MonkeyType[7907:149489] [Crashlytics] Version 3.0.9 (54)
+2015-07-08 15:56:20.690 MonkeyType[7907:149489] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-08 15:56:20.690 MonkeyType[7907:149489] Multi-tasking -> Device: YES, App: YES
+2015-07-08 15:56:20.704 MonkeyType[7907:149489] Unlimited access to network resources
+2015-07-08 15:56:20.711 MonkeyType[7907:149489] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-08 15:56:20.929 MonkeyType[7907:149489] [CDVTimer][keyboard] 0.074029ms
+2015-07-08 15:56:20.931 MonkeyType[7907:149489] [CDVTimer][file] 1.869977ms
+2015-07-08 15:56:20.931 MonkeyType[7907:149489] Init FacebookConnect Session
+2015-07-08 15:56:20.952 MonkeyType[7907:149489] [CDVTimer][facebookconnectplugin] 21.044016ms
+2015-07-08 15:56:20.952 MonkeyType[7907:149489] [CDVTimer][TotalPluginStartup] 23.425996ms
+2015-07-08 15:56:21.137 MonkeyType[7907:149489] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-08 15:56:21.606 MonkeyType[7907:149489] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C6B385F8-49F2-4506-86C7-E7E7DACD32F6/MonkeyType.app/www/index.html
+2015-07-08 15:56:28.460 MonkeyType[7907:149489] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C6B385F8-49F2-4506-86C7-E7E7DACD32F6/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-08 15:56:28.471 MonkeyType[7907:149489] Playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:56:28.476 MonkeyType[7907:149489] THREAD WARNING: ['Media'] took '15.779053' ms. Plugin should use a background thread.
+2015-07-08 15:56:28.872 MonkeyType[7907:149489] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-08 15:56:44.894 MonkeyType[7907:149489] THREAD WARNING: ['FacebookConnectPlugin'] took '43.448975' ms. Plugin should use a background thread.
+2015-07-08 15:56:44.974 MonkeyType[7907:149489] THREAD WARNING: ['FacebookConnectPlugin'] took '78.172852' ms. Plugin should use a background thread.
+2015-07-08 15:56:50.201 MonkeyType[7907:149489] THREAD WARNING: ['FacebookConnectPlugin'] took '50.572021' ms. Plugin should use a background thread.
+2015-07-10 17:06:30.680 MonkeyType[19175:1116153] [Crashlytics] Version 3.0.9 (54)
+2015-07-10 17:06:30.737 MonkeyType[19175:1116153] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-10 17:06:30.738 MonkeyType[19175:1116153] Multi-tasking -> Device: YES, App: YES
+2015-07-10 17:06:30.754 MonkeyType[19175:1116153] Unlimited access to network resources
+2015-07-10 17:06:30.781 MonkeyType[19175:1116153] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-10 17:06:31.032 MonkeyType[19175:1116153] [CDVTimer][keyboard] 0.401974ms
+2015-07-10 17:06:31.034 MonkeyType[19175:1116153] [CDVTimer][file] 2.052009ms
+2015-07-10 17:06:31.034 MonkeyType[19175:1116153] Init FacebookConnect Session
+2015-07-10 17:06:31.064 MonkeyType[19175:1116153] [CDVTimer][facebookconnectplugin] 29.435992ms
+2015-07-10 17:06:31.064 MonkeyType[19175:1116153] [CDVTimer][TotalPluginStartup] 32.287002ms
+2015-07-10 17:06:31.373 MonkeyType[19175:1116153] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-10 17:06:32.084 MonkeyType[19175:1116153] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/BCA1C4A3-3CD9-4646-82E5-CEFC96411C59/MonkeyType.app/www/index.html
+2015-07-10 17:06:39.132 MonkeyType[19175:1116153] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/BCA1C4A3-3CD9-4646-82E5-CEFC96411C59/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-10 17:06:39.151 MonkeyType[19175:1116153] Playing audio sample './assets/sound/jump.wav'
+2015-07-10 17:06:39.169 MonkeyType[19175:1116153] THREAD WARNING: ['Media'] took '37.694824' ms. Plugin should use a background thread.
+2015-07-10 17:06:39.565 MonkeyType[19175:1116153] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-10 17:06:46.254 MonkeyType[19175:1116153] THREAD WARNING: ['FacebookConnectPlugin'] took '43.977051' ms. Plugin should use a background thread.
+2015-07-10 17:06:46.330 MonkeyType[19175:1116153] THREAD WARNING: ['FacebookConnectPlugin'] took '74.334229' ms. Plugin should use a background thread.
+2015-07-10 17:07:43.132 MonkeyType[19175:1116153] THREAD WARNING: ['FacebookConnectPlugin'] took '44.508057' ms. Plugin should use a background thread.
+2015-07-10 17:11:41.631 MonkeyType[19175:1116153] THREAD WARNING: ['FacebookConnectPlugin'] took '60.024170' ms. Plugin should use a background thread.
+2015-07-10 17:11:42.230 MonkeyType[19175:1116153] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-10 17:11:54.766 MonkeyType[19175:1116153] THREAD WARNING: ['FacebookConnectPlugin'] took '45.353027' ms. Plugin should use a background thread.
+2015-07-12 23:12:44.339 MonkeyType[744:8144] [Crashlytics] Version 3.0.9 (54)
+2015-07-12 23:12:44.376 MonkeyType[744:8144] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-12 23:12:44.376 MonkeyType[744:8144] Multi-tasking -> Device: YES, App: YES
+2015-07-12 23:12:44.391 MonkeyType[744:8144] Unlimited access to network resources
+2015-07-12 23:12:44.398 MonkeyType[744:8144] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-12 23:12:44.630 MonkeyType[744:8144] [CDVTimer][keyboard] 0.077009ms
+2015-07-12 23:12:44.634 MonkeyType[744:8144] [CDVTimer][file] 3.293037ms
+2015-07-12 23:12:44.634 MonkeyType[744:8144] Init FacebookConnect Session
+2015-07-12 23:12:44.664 MonkeyType[744:8144] [CDVTimer][facebookconnectplugin] 30.469000ms
+2015-07-12 23:12:44.664 MonkeyType[744:8144] [CDVTimer][TotalPluginStartup] 34.335017ms
+2015-07-12 23:12:44.854 MonkeyType[744:8144] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-12 23:12:45.284 MonkeyType[744:8144] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D81596ED-B689-4CA3-A616-3F560A9FEAC8/MonkeyType.app/www/index.html
+2015-07-12 23:12:59.625 MonkeyType[744:8144] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/D81596ED-B689-4CA3-A616-3F560A9FEAC8/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-12 23:12:59.633 MonkeyType[744:8144] Playing audio sample './assets/sound/jump.wav'
+2015-07-12 23:12:59.643 MonkeyType[744:8144] THREAD WARNING: ['Media'] took '18.734131' ms. Plugin should use a background thread.
+2015-07-12 23:13:00.028 MonkeyType[744:8144] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-12 23:13:06.432 MonkeyType[744:8144] THREAD WARNING: ['FacebookConnectPlugin'] took '34.922119' ms. Plugin should use a background thread.
+2015-07-12 23:13:06.497 MonkeyType[744:8144] THREAD WARNING: ['FacebookConnectPlugin'] took '63.661133' ms. Plugin should use a background thread.
+2015-07-12 23:13:11.784 MonkeyType[744:8492] Terminating since there is no system app.
+2015-07-13 13:24:35.035 MonkeyType[2218:147222] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 13:24:35.075 MonkeyType[2218:147222] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 13:24:35.076 MonkeyType[2218:147222] Multi-tasking -> Device: YES, App: YES
+2015-07-13 13:24:35.078 MonkeyType[2218:147222] Unlimited access to network resources
+2015-07-13 13:24:35.080 MonkeyType[2218:147222] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 13:24:35.151 MonkeyType[2218:147222] [CDVTimer][keyboard] 0.066042ms
+2015-07-13 13:24:35.152 MonkeyType[2218:147222] [CDVTimer][file] 0.891984ms
+2015-07-13 13:24:35.152 MonkeyType[2218:147222] Init FacebookConnect Session
+2015-07-13 13:24:35.156 MonkeyType[2218:147222] [CDVTimer][facebookconnectplugin] 3.962040ms
+2015-07-13 13:24:35.156 MonkeyType[2218:147222] [CDVTimer][TotalPluginStartup] 5.295038ms
+2015-07-13 13:24:35.194 MonkeyType[2218:147222] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 13:24:35.444 MonkeyType[2218:147222] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/index.html
+2015-07-13 13:24:42.333 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:24:42.339 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:24:42.725 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:24:53.115 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:24:53.121 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:24:53.508 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:03.546 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:03.552 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:03.561 MonkeyType[2218:147222] THREAD WARNING: ['Media'] took '15.066895' ms. Plugin should use a background thread.
+2015-07-13 13:25:03.943 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:13.715 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:13.721 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:13.729 MonkeyType[2218:147222] THREAD WARNING: ['Media'] took '13.560791' ms. Plugin should use a background thread.
+2015-07-13 13:25:14.111 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:23.913 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:23.919 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:24.303 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:34.130 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:34.136 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:34.147 MonkeyType[2218:147222] THREAD WARNING: ['Media'] took '17.321045' ms. Plugin should use a background thread.
+2015-07-13 13:25:34.530 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:44.328 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:44.334 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:44.338 MonkeyType[2218:147222] THREAD WARNING: ['Media'] took '10.199219' ms. Plugin should use a background thread.
+2015-07-13 13:25:44.721 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:54.462 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:25:54.468 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:25:54.854 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:26:04.723 MonkeyType[2218:147222] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/8987ABEB-3497-437D-9499-D3F9566CC9FA/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:26:04.729 MonkeyType[2218:147222] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:26:04.733 MonkeyType[2218:147222] THREAD WARNING: ['Media'] took '10.125977' ms. Plugin should use a background thread.
+2015-07-13 13:26:05.116 MonkeyType[2218:147222] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:26:07.818 MonkeyType[2218:147911] Terminating since there is no system app.
+2015-07-13 13:39:43.297 MonkeyType[2632:155353] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 13:39:43.315 MonkeyType[2632:155353] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 13:39:43.315 MonkeyType[2632:155353] Multi-tasking -> Device: YES, App: YES
+2015-07-13 13:39:43.318 MonkeyType[2632:155353] Unlimited access to network resources
+2015-07-13 13:39:43.321 MonkeyType[2632:155353] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 13:39:43.405 MonkeyType[2632:155353] [CDVTimer][keyboard] 0.052989ms
+2015-07-13 13:39:43.406 MonkeyType[2632:155353] [CDVTimer][file] 0.808001ms
+2015-07-13 13:39:43.406 MonkeyType[2632:155353] Init FacebookConnect Session
+2015-07-13 13:39:43.410 MonkeyType[2632:155353] [CDVTimer][facebookconnectplugin] 3.848970ms
+2015-07-13 13:39:43.410 MonkeyType[2632:155353] [CDVTimer][TotalPluginStartup] 5.064011ms
+2015-07-13 13:39:43.453 MonkeyType[2632:155353] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 13:39:43.708 MonkeyType[2632:155353] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/index.html
+2015-07-13 13:39:50.463 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:39:50.468 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:39:50.480 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '17.922852' ms. Plugin should use a background thread.
+2015-07-13 13:39:50.863 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:39:57.969 MonkeyType[2632:155353] THREAD WARNING: ['FacebookConnectPlugin'] took '31.872803' ms. Plugin should use a background thread.
+2015-07-13 13:39:58.021 MonkeyType[2632:155353] THREAD WARNING: ['FacebookConnectPlugin'] took '50.565918' ms. Plugin should use a background thread.
+2015-07-13 13:41:18.793 MonkeyType[2632:155353] THREAD WARNING: ['FacebookConnectPlugin'] took '46.938965' ms. Plugin should use a background thread.
+2015-07-13 13:42:12.457 MonkeyType[2632:155353] THREAD WARNING: ['FacebookConnectPlugin'] took '49.775879' ms. Plugin should use a background thread.
+2015-07-13 13:42:13.051 MonkeyType[2632:155353] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-07-13 13:42:26.396 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:42:26.402 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:26.788 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:33.308 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:42:33.314 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:33.323 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '15.439209' ms. Plugin should use a background thread.
+2015-07-13 13:42:33.706 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:43.302 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:42:43.308 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:43.317 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '15.001953' ms. Plugin should use a background thread.
+2015-07-13 13:42:43.700 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:53.321 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:42:53.327 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:42:53.335 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '13.269775' ms. Plugin should use a background thread.
+2015-07-13 13:42:53.717 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:03.344 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:03.350 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:03.735 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:13.354 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:13.360 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:13.369 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '15.405029' ms. Plugin should use a background thread.
+2015-07-13 13:43:13.752 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:23.371 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:23.378 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:23.386 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '15.034912' ms. Plugin should use a background thread.
+2015-07-13 13:43:23.770 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:33.381 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:33.387 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:33.392 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '11.540039' ms. Plugin should use a background thread.
+2015-07-13 13:43:33.775 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:43.401 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:43.406 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:43.793 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:53.417 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:43:53.422 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:43:53.427 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '10.383789' ms. Plugin should use a background thread.
+2015-07-13 13:43:53.810 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:03.435 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:44:03.441 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:03.827 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:13.459 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:44:13.465 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:13.473 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '14.139893' ms. Plugin should use a background thread.
+2015-07-13 13:44:13.856 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:23.481 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:44:23.487 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:23.874 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:33.489 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:44:33.495 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:33.880 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:43.511 MonkeyType[2632:155353] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/F96578C2-400A-45F5-B0CE-1B8E022EA69D/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 13:44:43.517 MonkeyType[2632:155353] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 13:44:43.526 MonkeyType[2632:155353] THREAD WARNING: ['Media'] took '14.250977' ms. Plugin should use a background thread.
+2015-07-13 13:44:43.908 MonkeyType[2632:155353] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:22:04.570 MonkeyType[5852:245984] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:22:04.613 MonkeyType[5852:245984] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:22:04.613 MonkeyType[5852:245984] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:22:04.635 MonkeyType[5852:245984] Unlimited access to network resources
+2015-07-13 17:22:04.642 MonkeyType[5852:245984] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:22:04.858 MonkeyType[5852:245984] [CDVTimer][keyboard] 0.066042ms
+2015-07-13 17:22:04.860 MonkeyType[5852:245984] [CDVTimer][file] 1.644969ms
+2015-07-13 17:22:04.861 MonkeyType[5852:245984] Init FacebookConnect Session
+2015-07-13 17:22:04.888 MonkeyType[5852:245984] [CDVTimer][facebookconnectplugin] 27.940035ms
+2015-07-13 17:22:04.888 MonkeyType[5852:245984] [CDVTimer][TotalPluginStartup] 30.041993ms
+2015-07-13 17:22:05.089 MonkeyType[5852:245984] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:22:05.536 MonkeyType[5852:245984] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/9EC57507-835C-4BA4-804F-9CC42E77B497/MonkeyType.app/www/index.html
+2015-07-13 17:24:37.169 MonkeyType[6109:248451] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:24:37.183 MonkeyType[6109:248451] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:24:37.183 MonkeyType[6109:248451] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:24:37.185 MonkeyType[6109:248451] Unlimited access to network resources
+2015-07-13 17:24:37.187 MonkeyType[6109:248451] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:24:37.260 MonkeyType[6109:248451] [CDVTimer][keyboard] 0.074029ms
+2015-07-13 17:24:37.262 MonkeyType[6109:248451] [CDVTimer][file] 1.174986ms
+2015-07-13 17:24:37.262 MonkeyType[6109:248451] Init FacebookConnect Session
+2015-07-13 17:24:37.267 MonkeyType[6109:248451] [CDVTimer][facebookconnectplugin] 4.480004ms
+2015-07-13 17:24:37.267 MonkeyType[6109:248451] [CDVTimer][TotalPluginStartup] 6.280005ms
+2015-07-13 17:24:37.305 MonkeyType[6109:248451] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:24:37.461 MonkeyType[6109:248451] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/index.html
+2015-07-13 17:24:53.669 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:24:53.678 MonkeyType[6109:248451] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:24:53.683 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '13.531006' ms. Plugin should use a background thread.
+2015-07-13 17:24:58.779 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:24:58.785 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:24:59.174 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:08.824 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:08.830 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:08.841 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '17.229736' ms. Plugin should use a background thread.
+2015-07-13 17:25:09.223 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:18.872 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:18.878 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:19.264 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:28.930 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:28.935 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:28.945 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '15.343262' ms. Plugin should use a background thread.
+2015-07-13 17:25:29.328 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:38.985 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:38.991 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:38.997 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '11.997070' ms. Plugin should use a background thread.
+2015-07-13 17:25:39.380 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:49.030 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:49.036 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:49.420 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:59.084 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:25:59.089 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:25:59.102 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '17.673096' ms. Plugin should use a background thread.
+2015-07-13 17:25:59.484 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:08.991 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:26:09.174 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:09.180 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:09.189 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '14.311035' ms. Plugin should use a background thread.
+2015-07-13 17:26:09.571 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:19.230 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:19.236 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:19.241 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '10.719971' ms. Plugin should use a background thread.
+2015-07-13 17:26:19.623 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:29.288 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:29.294 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:29.304 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '16.222168' ms. Plugin should use a background thread.
+2015-07-13 17:26:29.687 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:39.348 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:39.354 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:39.740 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:49.412 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:49.418 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:49.803 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:59.470 MonkeyType[6109:248451] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/0E26A253-CC4D-4B87-8F56-6BE0BBDACAB1/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:26:59.475 MonkeyType[6109:248451] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:26:59.484 MonkeyType[6109:248451] THREAD WARNING: ['Media'] took '14.693359' ms. Plugin should use a background thread.
+2015-07-13 17:26:59.867 MonkeyType[6109:248451] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:28:37.780 MonkeyType[6369:251835] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:28:37.851 MonkeyType[6369:251835] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:28:37.851 MonkeyType[6369:251835] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:28:37.853 MonkeyType[6369:251835] Unlimited access to network resources
+2015-07-13 17:28:37.855 MonkeyType[6369:251835] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:28:37.944 MonkeyType[6369:251835] [CDVTimer][keyboard] 0.055015ms
+2015-07-13 17:28:37.945 MonkeyType[6369:251835] [CDVTimer][file] 0.910997ms
+2015-07-13 17:28:37.945 MonkeyType[6369:251835] Init FacebookConnect Session
+2015-07-13 17:28:37.950 MonkeyType[6369:251835] [CDVTimer][facebookconnectplugin] 5.093992ms
+2015-07-13 17:28:37.950 MonkeyType[6369:251835] [CDVTimer][TotalPluginStartup] 6.431997ms
+2015-07-13 17:28:37.988 MonkeyType[6369:251835] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:28:38.135 MonkeyType[6369:251835] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/index.html
+2015-07-13 17:28:39.733 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:28:39.739 MonkeyType[6369:251835] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:28:44.788 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:28:44.794 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:28:44.801 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '13.164062' ms. Plugin should use a background thread.
+2015-07-13 17:28:45.184 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:28:54.832 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:28:54.838 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:28:55.225 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:04.842 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:04.848 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:04.859 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '16.553955' ms. Plugin should use a background thread.
+2015-07-13 17:29:05.242 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:14.853 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:14.859 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:14.865 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '11.774902' ms. Plugin should use a background thread.
+2015-07-13 17:29:15.248 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:24.892 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:24.898 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:24.905 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '12.923096' ms. Plugin should use a background thread.
+2015-07-13 17:29:25.288 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:34.903 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:34.909 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:35.294 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:44.923 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:44.929 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:44.941 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '17.420898' ms. Plugin should use a background thread.
+2015-07-13 17:29:45.323 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:54.947 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:29:54.954 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:54.957 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '10.024170' ms. Plugin should use a background thread.
+2015-07-13 17:29:55.050 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:29:55.340 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:29:59.454 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:29:59.460 MonkeyType[6369:251835] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:31:14.771 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:31:34.383 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:31:34.389 MonkeyType[6369:251835] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:31:34.400 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '16.767822' ms. Plugin should use a background thread.
+2015-07-13 17:31:39.383 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:31:39.388 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:31:39.774 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:31:49.390 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:31:49.396 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:31:49.780 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:31:59.397 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:31:59.402 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:31:59.414 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '17.453857' ms. Plugin should use a background thread.
+2015-07-13 17:31:59.797 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:09.407 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:09.413 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:09.420 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '13.178955' ms. Plugin should use a background thread.
+2015-07-13 17:32:09.803 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:19.408 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:19.413 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:19.797 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:29.416 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:29.422 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:29.432 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '15.520996' ms. Plugin should use a background thread.
+2015-07-13 17:32:29.815 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:39.437 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:39.443 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:39.449 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '11.526855' ms. Plugin should use a background thread.
+2015-07-13 17:32:39.832 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:49.459 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:49.465 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:49.710 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:32:49.849 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:59.471 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:32:59.477 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:32:59.484 MonkeyType[6369:251835] THREAD WARNING: ['Media'] took '13.160156' ms. Plugin should use a background thread.
+2015-07-13 17:32:59.866 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:09.504 MonkeyType[6369:251835] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/C06702A8-76F4-4872-9C0C-04B753189FD7/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:33:09.510 MonkeyType[6369:251835] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:09.895 MonkeyType[6369:251835] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:14.227 MonkeyType[6584:255415] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:33:14.327 MonkeyType[6584:255415] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:33:14.327 MonkeyType[6584:255415] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:33:14.329 MonkeyType[6584:255415] Unlimited access to network resources
+2015-07-13 17:33:14.331 MonkeyType[6584:255415] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:33:14.413 MonkeyType[6584:255415] [CDVTimer][keyboard] 0.077963ms
+2015-07-13 17:33:14.414 MonkeyType[6584:255415] [CDVTimer][file] 1.339018ms
+2015-07-13 17:33:14.414 MonkeyType[6584:255415] Init FacebookConnect Session
+2015-07-13 17:33:14.420 MonkeyType[6584:255415] [CDVTimer][facebookconnectplugin] 5.114019ms
+2015-07-13 17:33:14.420 MonkeyType[6584:255415] [CDVTimer][TotalPluginStartup] 7.091045ms
+2015-07-13 17:33:14.486 MonkeyType[6584:255415] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:33:14.678 MonkeyType[6584:255415] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/index.html
+2015-07-13 17:33:16.257 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:33:16.263 MonkeyType[6584:255415] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:33:16.267 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '10.031006' ms. Plugin should use a background thread.
+2015-07-13 17:33:21.362 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:33:21.369 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:21.374 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '11.255127' ms. Plugin should use a background thread.
+2015-07-13 17:33:21.757 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:31.389 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:33:31.395 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:31.403 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '14.049072' ms. Plugin should use a background thread.
+2015-07-13 17:33:31.786 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:41.418 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:33:41.424 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:41.432 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '13.558105' ms. Plugin should use a background thread.
+2015-07-13 17:33:41.815 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:51.462 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:33:51.468 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:33:51.472 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '10.338867' ms. Plugin should use a background thread.
+2015-07-13 17:33:51.855 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:01.498 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:01.504 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:01.513 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '15.012207' ms. Plugin should use a background thread.
+2015-07-13 17:34:01.896 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:11.520 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:11.526 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:11.530 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '10.271973' ms. Plugin should use a background thread.
+2015-07-13 17:34:11.913 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:21.540 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:21.546 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:21.931 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:31.559 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:31.565 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:31.589 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '29.520020' ms. Plugin should use a background thread.
+2015-07-13 17:34:31.589 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:34:31.590 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:34:31.596 MonkeyType[6584:255415] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:34:31.971 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:41.609 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:41.615 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:42.000 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:51.630 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:34:51.636 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:34:51.646 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '16.868896' ms. Plugin should use a background thread.
+2015-07-13 17:34:52.029 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:01.658 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:35:01.663 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:01.675 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '17.515869' ms. Plugin should use a background thread.
+2015-07-13 17:35:02.058 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:11.674 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:35:11.679 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:12.064 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:21.687 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:35:21.693 MonkeyType[6584:255415] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:21.698 MonkeyType[6584:255415] THREAD WARNING: ['Media'] took '11.220215' ms. Plugin should use a background thread.
+2015-07-13 17:35:22.081 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:35:46.910 MonkeyType[6584:255415] Finished playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:35:46.913 MonkeyType[6584:255415] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/491B75AB-CA24-4784-933D-D00A1746D4B5/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:35:46.919 MonkeyType[6584:255415] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:36:57.971 MonkeyType[6792:258018] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:36:58.067 MonkeyType[6792:258018] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:36:58.067 MonkeyType[6792:258018] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:36:58.069 MonkeyType[6792:258018] Unlimited access to network resources
+2015-07-13 17:36:58.071 MonkeyType[6792:258018] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:36:58.153 MonkeyType[6792:258018] [CDVTimer][keyboard] 0.051975ms
+2015-07-13 17:36:58.154 MonkeyType[6792:258018] [CDVTimer][file] 0.791967ms
+2015-07-13 17:36:58.154 MonkeyType[6792:258018] Init FacebookConnect Session
+2015-07-13 17:36:58.158 MonkeyType[6792:258018] [CDVTimer][facebookconnectplugin] 4.034996ms
+2015-07-13 17:36:58.158 MonkeyType[6792:258018] [CDVTimer][TotalPluginStartup] 5.252004ms
+2015-07-13 17:36:58.210 MonkeyType[6792:258018] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:36:58.392 MonkeyType[6792:258018] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/18430E09-FA28-4AC3-94F5-1E0F756D5E26/MonkeyType.app/www/index.html
+2015-07-13 17:37:00.142 MonkeyType[6792:258018] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/18430E09-FA28-4AC3-94F5-1E0F756D5E26/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:37:00.149 MonkeyType[6792:258018] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:37:00.153 MonkeyType[6792:258018] THREAD WARNING: ['Media'] took '10.787842' ms. Plugin should use a background thread.
+2015-07-13 17:38:03.426 MonkeyType[6991:259135] [Crashlytics] Version 3.0.9 (54)
+2015-07-13 17:38:03.449 MonkeyType[6991:259135] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-13 17:38:03.449 MonkeyType[6991:259135] Multi-tasking -> Device: YES, App: YES
+2015-07-13 17:38:03.451 MonkeyType[6991:259135] Unlimited access to network resources
+2015-07-13 17:38:03.454 MonkeyType[6991:259135] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-13 17:38:03.556 MonkeyType[6991:259135] [CDVTimer][keyboard] 0.052035ms
+2015-07-13 17:38:03.557 MonkeyType[6991:259135] [CDVTimer][file] 0.810981ms
+2015-07-13 17:38:03.557 MonkeyType[6991:259135] Init FacebookConnect Session
+2015-07-13 17:38:03.561 MonkeyType[6991:259135] [CDVTimer][facebookconnectplugin] 3.746986ms
+2015-07-13 17:38:03.561 MonkeyType[6991:259135] [CDVTimer][TotalPluginStartup] 4.963040ms
+2015-07-13 17:38:03.610 MonkeyType[6991:259135] Resetting plugins due to page load.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-07-13 17:38:03.810 MonkeyType[6991:259135] Finished load of: file:///Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/index.html
+2015-07-13 17:38:05.917 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:38:05.924 MonkeyType[6991:259135] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:38:05.936 MonkeyType[6991:259135] THREAD WARNING: ['Media'] took '18.936035' ms. Plugin should use a background thread.
+2015-07-13 17:38:07.185 MonkeyType[6991:259135] Stopped playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:38:08.797 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:38:08.803 MonkeyType[6991:259135] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:38:08.815 MonkeyType[6991:259135] THREAD WARNING: ['Media'] took '17.924805' ms. Plugin should use a background thread.
+2015-07-13 17:38:13.039 MonkeyType[6991:259135] Stopped playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:38:13.916 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:38:13.922 MonkeyType[6991:259135] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:14.305 MonkeyType[6991:259135] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:14.612 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/gameplay.wav' in the web folder.
+2015-07-13 17:38:14.617 MonkeyType[6991:259135] Playing audio sample './assets/sound/gameplay.wav'
+2015-07-13 17:38:19.693 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:38:19.699 MonkeyType[6991:259135] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:20.086 MonkeyType[6991:259135] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:29.682 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:38:29.688 MonkeyType[6991:259135] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:29.697 MonkeyType[6991:259135] THREAD WARNING: ['Media'] took '15.226807' ms. Plugin should use a background thread.
+2015-07-13 17:38:30.080 MonkeyType[6991:259135] Finished playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:39.696 MonkeyType[6991:259135] Found resource '/Users/stefan/Library/Developer/CoreSimulator/Devices/3EDD4635-AE11-4D25-9D94-DD652D080F9D/data/Containers/Bundle/Application/7CB1DB49-AE65-49CE-A3FB-13F4B26E9B08/MonkeyType.app/www/./assets/sound/jump.wav' in the web folder.
+2015-07-13 17:38:39.702 MonkeyType[6991:259135] Playing audio sample './assets/sound/jump.wav'
+2015-07-13 17:38:40.086 MonkeyType[6991:259135] Finished playing audio sample './assets/sound/jump.wav'

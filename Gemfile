@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'public_suffix'
+gem 'awesome_print'
+gem 'nokogiri-styles'
+gem 'iconv'
+gem 'launchy'
+gem 'ruby-readability'#, :git => 'https://github.com/Orphist/ruby-readability.git', :require => 'readability'
+gem 'sanitize'
+gem 'ffi-icu'
+gem 'sinatra'
+gem 'thin'

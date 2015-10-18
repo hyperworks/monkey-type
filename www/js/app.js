@@ -1,0 +1,1 @@
+var game = require("./lib/game");

@@ -1,0 +1,56 @@
+{
+    "com.chariotsolutions.cordova.plugin.keyboard_toolbar_remover": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/don/KeyboardToolbarRemover",
+            "subdir": "."
+        }
+    },
+    "com.ben2.cordova.keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "com.ben2.cordova.keyboard"
+        }
+    },
+    "com.ionic.keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "com.ionic.keyboard"
+        }
+    },
+    "org.apache.cordova.media": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.media"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-media": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.file": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.file"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.phonegap.plugins.facebookconnect": {
+        "source": {
+            "type": "local",
+            "path": "/Users/stefan/www_nodejs/phonegap-facebook-plugin"
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_ID": "703479189756210",
+            "APP_NAME": "monkey-typing"
+        }
+    }
+}

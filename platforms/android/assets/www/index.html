@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>MonkeyType</title>
+		<style>
+			body,
+			canvas {
+				background: black;
+				overflow: hidden;
+			}
+
+			.ui{				
+				position: absolute;
+				width: 800px;
+				z-index: 9;
+			}			
+
+			.progressBar{
+				height: 5px;
+				width: 100%;
+				background: #ff0000;
+			}
+
+			.hidden 
+		{position:absolute;
+		left:-10000px;
+		top:auto;
+		width:1px;
+		height:1px;
+		overflow:hidden;}
+
+			.prefix {
+				display: inline-block;
+			}
+			.postfix {
+				display: inline-block;
+			}
+
+			.hidden2 {
+				position: absolute;    left: -999em;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+	</head>
+	<body style="margin:0px;background-color:#041224">
+	<input class="hidden" type="text" id="inputguy" autocapitalize="off"
+                autocorrect="off"  />
+
+		<audio id="soundJump" src="./assets/sound/jump.wav" type="audio/wave" ></audio>
+
+		<script src='./cordova.js'></script>		
+		
+		<script src='./js/lib/vendor/easeljs-0.8.0.min.js'></script>		
+		<script src='./js/lib/vendor/preloadjs-0.6.0.min.js'></script>		
+		<script src='./js/lib/vendor/soundjs-0.6.0.min.js'></script>		
+		<script src='./js/lib/vendor/tweenjs-0.6.0.min.js'></script>		
+		<script src='./js/lib/vendor/creatine-1.0.0.min.js'></script>		
+		<script src='./js/lib/vendor/localytics-2.6.js'></script>		
+		<script src='./bundle.js'></script>		
+
+
+	</body>
+</html> 
