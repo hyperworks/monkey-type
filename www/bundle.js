@@ -22070,6 +22070,8 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
 			}
 		});
 		
+		console.log("config.path.assets", config.path.assets)
+		console.log("config", config)
 		game.load.audio("jump_sound", config.path.assets + "sound/jump.wav");
 		game.load.audio("gameplay_sound", config.path.assets + "sound/gameplay.wav");
 	},
@@ -22823,8 +22825,8 @@ var PlayScene = tine._scene({
 
 
 		//load sound
-		createjs.Sound.registerSound({src:"/assets/sound/jump.wav", id:"soundJump"});
-		createjs.Sound.registerSound({src:"/assets/sound/gameplay.wav", id:"soundGameplay"});
+		createjs.Sound.registerSound({src:"./assets/sound/jump.wav", id:"soundJump"});
+		createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
 		
 		//set FPS and start listening to game ticks
 		// createjs.Ticker.setFPS(40);
@@ -23511,7 +23513,7 @@ var PreloadScene = tine._scene({
 
         if(game.canvas.width > game.canvas.height)
         {
-            var image = "../../assets/img/Default-Landscape@2x~ipad.png";
+            var image = "./assets/img/Default-Landscape@2x~ipad.png";
             
             this.image_size = {
                 width: 2048,
@@ -23520,7 +23522,7 @@ var PreloadScene = tine._scene({
         }
         else
         {
-            var image = "../../assets/img/Default-736h.png";
+            var image = "./assets/img/Default-736h.png";
             
             this.image_size = {
                 width: 1242,

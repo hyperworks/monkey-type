@@ -265,8 +265,8 @@ var PlayScene = tine._scene({
 
 
 		//load sound
-		createjs.Sound.registerSound({src:"/assets/sound/jump.wav", id:"soundJump"});
-		createjs.Sound.registerSound({src:"/assets/sound/gameplay.wav", id:"soundGameplay"});
+		createjs.Sound.registerSound({src:"./assets/sound/jump.wav", id:"soundJump"});
+		createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
 		
 		//set FPS and start listening to game ticks
 		// createjs.Ticker.setFPS(40);

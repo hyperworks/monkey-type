@@ -15,9 +15,23 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.2.2"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperworks/monkey-type.git"
+  },
+  "keywords": [
+    "typing",
+    "game",
+    "thai",
+    "learn",
+    "education"
+  ],
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
+   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
   },
   "author": "",
   "license": "ISC"
