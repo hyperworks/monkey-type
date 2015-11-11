@@ -45,7 +45,7 @@ var PreloadScene = tine._scene({
 
         if(game.canvas.width > game.canvas.height)
         {
-            var image = "../../assets/img/Default-Landscape@2x~ipad.png";
+            var image = "./assets/img/Default-Landscape@2x~ipad.png";
             
             this.image_size = {
                 width: 2048,
@@ -54,7 +54,7 @@ var PreloadScene = tine._scene({
         }
         else
         {
-            var image = "../../assets/img/Default-736h.png";
+            var image = "./assets/img/Default-736h.png";
             
             this.image_size = {
                 width: 1242,

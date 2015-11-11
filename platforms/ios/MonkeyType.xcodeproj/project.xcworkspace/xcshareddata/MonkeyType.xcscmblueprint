@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5EB9ECDA714EFE2278B633E33C99C245E021C7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2278ED5EA5BEC1F23DA9CC89A308624D52AF929D" : 0,
+    "B5EB9ECDA714EFE2278B633E33C99C245E021C7F" : 0,
+    "A4153DF6114DE1A3E69C37938FE191058DE6C17C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6D3239A-A14C-433B-BDD8-05E9810FCE0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2278ED5EA5BEC1F23DA9CC89A308624D52AF929D" : "",
+    "B5EB9ECDA714EFE2278B633E33C99C245E021C7F" : "monkey-type\/",
+    "A4153DF6114DE1A3E69C37938FE191058DE6C17C" : "typejs"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MonkeyType",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/MonkeyType.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hyperworks\/chaostesting.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2278ED5EA5BEC1F23DA9CC89A308624D52AF929D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hyperworks\/typingjs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4153DF6114DE1A3E69C37938FE191058DE6C17C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hyperworks\/monkey-type.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5EB9ECDA714EFE2278B633E33C99C245E021C7F"
+    }
+  ]
+}

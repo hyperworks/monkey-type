@@ -90,6 +90,8 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
 			}
 		});
 		
+		console.log("config.path.assets", config.path.assets)
+		console.log("config", config)
 		game.load.audio("jump_sound", config.path.assets + "sound/jump.wav");
 		game.load.audio("gameplay_sound", config.path.assets + "sound/gameplay.wav");
 	},
