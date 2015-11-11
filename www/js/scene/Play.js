@@ -217,7 +217,7 @@ var PlayScene = tine._scene({
 		}			
 
 		//init monster textfield to show current word
-		this.showWordLabel = new createjs.Text("", "20px Arial", "#ff7700");
+		this.showWordLabel = new createjs.Text("", "26px Arial", "#ff7700");
 		this.showWordLabel.textBaseline = "alphabetic";		
 
 		//initialize hero
@@ -410,7 +410,7 @@ var PlayScene = tine._scene({
 
 		//TODO middle of the monster
 		that.showWordLabel.x = width - 80;
-		    that.showWordLabel.y = ground0.y - ground0.height - 35;
+		    that.showWordLabel.y = ground0.y - ground0.height - 37;
 
 		    // that.wpmLabel.x = this.width - 10 - that.wpmLabel.getMeasuredWidth();
 
