@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		062408AEAE7D48E3B7947106 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179B49DB160F40D3A44D2AD9 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		110448BF1510408794B20FF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0807E50F1B704C9E83EAD892 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -50,7 +49,6 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		8A01E0A1E283413FBDA71B14 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441B1220C36B47DCB280DD16 /* FacebookSDK.framework */; };
-		B6FAAB5DFD0B4F54952EB48A /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4352E18384D6090B6076C /* CDVSound.m */; };
 		C1159B09287B4136B83F54F9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D47A0DF90446CA8EBC6AD4 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C4A1A5B9C2CF41908AD5BD70 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6554CF693456BA174D063 /* CDVAssetLibraryFilesystem.m */; };
 		CB809E3A92FD49C292771713 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B1889FFA15924811B673F976 /* IonicKeyboard.m */; };
@@ -130,7 +128,6 @@
 		84D13E8F017042D0BABC1E43 /* CDVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = org.apache.cordova.file/CDVFile.m; sourceTree = "<group>"; };
 		8BFA779FE67B4523BC125D7A /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MonkeyType-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MonkeyType-Info.plist"; path = "../MonkeyType-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		9BB4352E18384D6090B6076C /* CDVSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = org.apache.cordova.media/CDVSound.m; sourceTree = "<group>"; };
 		A1D47A0DF90446CA8EBC6AD4 /* Accounts.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		AC38FAC87E2D4F46B15639A2 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = org.apache.cordova.file/CDVLocalFilesystem.h; sourceTree = "<group>"; };
 		B1889FFA15924811B673F976 /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = com.ionic.keyboard/IonicKeyboard.m; sourceTree = "<group>"; };
@@ -140,8 +137,9 @@
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F6BBE90B86854BCC8B31B8EB /* CDVSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = org.apache.cordova.media/CDVSound.h; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = MonkeyType/config.xml; sourceTree = "<group>"; };
+		0564228A868244E19F3195DC /* CDVSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSound.m"; path = "cordova-plugin-media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		011E788CD1D9403CB8303A09 /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSound.h"; path = "cordova-plugin-media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,10 +268,10 @@
 				63BCD4D3EAEE4E969260185A /* CDVFile.h */,
 				AC38FAC87E2D4F46B15639A2 /* CDVLocalFilesystem.h */,
 				23951942DB754013B1180AEA /* CDVAssetLibraryFilesystem.h */,
-				9BB4352E18384D6090B6076C /* CDVSound.m */,
-				F6BBE90B86854BCC8B31B8EB /* CDVSound.h */,
 				8BFA779FE67B4523BC125D7A /* FacebookConnectPlugin.m */,
 				720E0A71788F48F1A3B8B6B3 /* FacebookConnectPlugin.h */,
+				0564228A868244E19F3195DC /* CDVSound.m */,
+				011E788CD1D9403CB8303A09 /* CDVSound.h */,
 			);
 			name = Plugins;
 			path = MonkeyType/Plugins;
@@ -480,8 +478,8 @@
 				D8A34E634E08457688CB731A /* CDVFile.m in Sources */,
 				1BFA0CA674174A4EB068455D /* CDVLocalFilesystem.m in Sources */,
 				C4A1A5B9C2CF41908AD5BD70 /* CDVAssetLibraryFilesystem.m in Sources */,
-				B6FAAB5DFD0B4F54952EB48A /* CDVSound.m in Sources */,
 				7A3A85DE90DB476296FDF2E9 /* FacebookConnectPlugin.m in Sources */,
+				0547F28C5DA149D38BC28216 /* CDVSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,10 +17,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"FacebookConnectPlugin\"><param name=\"ios-package\" value=\"FacebookConnectPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
@@ -119,12 +115,12 @@
         "com.ionic.keyboard": {
             "PACKAGE_NAME": "com.langfight.monkeytype"
         },
-        "org.apache.cordova.media": {
-            "PACKAGE_NAME": "com.langfight.monkeytype"
-        },
         "com.phonegap.plugins.facebookconnect": {
             "APP_ID": "703479189756210",
             "APP_NAME": "monkey-typing",
+            "PACKAGE_NAME": "com.langfight.monkeytype"
+        },
+        "cordova-plugin-media": {
             "PACKAGE_NAME": "com.langfight.monkeytype"
         }
     },
