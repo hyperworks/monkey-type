@@ -25,6 +25,8 @@ var RUNNABLE_STATES = [
 	State.MONSTER_DYING
 ]
 
+var ignoreIncorrectKeys = true; //more of a general config, we are going to ingore incorrect key presses
+
 
 var PlayScene = tine._scene({
     initialize: function() {
@@ -368,7 +370,6 @@ var PlayScene = tine._scene({
 			this.parallaxLayer[i].render();
 		}			
 		// this.update();
-
 
 		this.highlightWrittentext();
     },
@@ -731,16 +732,20 @@ var PlayScene = tine._scene({
 			return;
 		}
 		this.lasttyped = data;
-/*
-		var i = 0;
-		for(i=0;i<this.currentWord.length;i++) {
-			if (this.currentWord[i] != data[i]) {
-				break;
+
+		if ignoreIncorrectKeys == true {
+			var i = 0;
+			for(i=0;i<this.currentWord.length;i++) {
+				if (this.currentWord[i] != data[i]) {
+					prefix=this.currentWord.slice(0,i)
+					this.curTyping = prefix
+					data = prefix
+					break;
+				}
 			}
 		}
-*/
 
-		//prefix=this.currentWord.slice(0,i)
+		//
 		//postfix=this.currentWord.slice(i)
 
 //			console.log("switching text", that.prefix.text);

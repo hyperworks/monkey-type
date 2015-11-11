@@ -22929,7 +22929,6 @@ var PlayScene = tine._scene({
 		}			
 		// this.update();
 
-
 		this.highlightWrittentext();
     },
     resize: function(){
@@ -23291,16 +23290,20 @@ var PlayScene = tine._scene({
 			return;
 		}
 		this.lasttyped = data;
-/*
+
 		var i = 0;
 		for(i=0;i<this.currentWord.length;i++) {
 			if (this.currentWord[i] != data[i]) {
+				prefix=this.currentWord.slice(0,i)
+				console.log("correct prefix -" + prefix)
+				this.curTyping = prefix
+				data = prefix
 				break;
 			}
 		}
-*/
 
-		//prefix=this.currentWord.slice(0,i)
+
+		//
 		//postfix=this.currentWord.slice(i)
 
 //			console.log("switching text", that.prefix.text);
