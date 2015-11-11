@@ -733,7 +733,7 @@ var PlayScene = tine._scene({
 		}
 		this.lasttyped = data;
 
-		if ignoreIncorrectKeys == true {
+		if(ignoreIncorrectKeys == true){
 			var i = 0;
 			for(i=0;i<this.currentWord.length;i++) {
 				if (this.currentWord[i] != data[i]) {
