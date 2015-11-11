@@ -23071,8 +23071,13 @@ var PlayScene = tine._scene({
 		this.monster.dealtDamage = false;
 	},
 	loadLevel: function() {
-
 		this.wordDictionary = game.levelManager.currentLevel.data;
+		console.log("before",this.wordDictionary)
+		this.wordDictionary.sort(function () {
+		    return Math.random() - 0.5;
+		});
+		console.log("after",this.wordDictionary)
+
 
 		console.log('loadLevel', this.wordDictionary);
 
