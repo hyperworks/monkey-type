@@ -27,8 +27,8 @@
     "education"
   ],
   "devDependencies": {
-    "electron-prebuilt": "^0.34.0"
-   },
+    "electron-prebuilt": "^0.34.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron main.js"
