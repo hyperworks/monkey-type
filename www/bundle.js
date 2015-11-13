@@ -22120,7 +22120,7 @@ game.resize = function(){
 
 
 
-},{"../game_config":5,"./../scene/Menu":18,"./../scene/Play":19,"./../scene/Preload.js":20,"./../scene/level_complete":21,"./../scene/setting":22,"./Player":7,"./level_manager":14,"./vendor/ndgmr.utils":17,"config":4,"lodash":2}],14:[function(require,module,exports){
+},{"../game_config":5,"./../scene/Menu":19,"./../scene/Play":20,"./../scene/Preload.js":21,"./../scene/level_complete":22,"./../scene/setting":23,"./Player":7,"./level_manager":14,"./vendor/ndgmr.utils":18,"config":4,"lodash":2}],14:[function(require,module,exports){
 var game = require("./game");
 var Level = require("./Level");
 var $ = require("jquery");
@@ -22294,6 +22294,56 @@ Timer.prototype.parseMMSS = function(s){
 };
 
 },{}],16:[function(require,module,exports){
+var ToggleButton = module.exports = function ToggleButton(image, w, h, x, y, clickHandler) {
+if (!(this instanceof ToggleButton)) {
+		return new ToggleButton();
+	}
+	this.initialize(image, w, h, x, y, clickHandler);
+}
+	
+ToggleButton.prototype = new createjs.Bitmap();
+	
+ToggleButton.prototype.initialize = function(image, w, h, x, y, clickHandler, state){
+	this.image = image;
+	this.w = w;
+	this.h = h;
+	this.x = x;
+	this.y = y;
+
+	this.sourceRect = new createjs.Rectangle(0, 0, this.w, this.h);
+	this.mouseEnabled = true;
+
+	this.state = false;
+	if (state == true) {
+		this.switchOn();
+	}
+
+	this.addEventListener('click', (function(scope) {
+		return function(){
+			clickHandler();
+			scope.toggle();
+		};
+	})(this));
+};	
+
+ToggleButton.prototype.toggle = function() {
+	if (this.state === false) {
+		this.switchOn();
+	} else if (this.state === true) {
+		this.switchOff();
+	}
+};
+
+ToggleButton.prototype.switchOn = function() {
+	this.state = true;
+	this.sourceRect = new createjs.Rectangle(this.w, 0, this.w, this.h);
+};
+
+ToggleButton.prototype.switchOff = function() {
+	this.state = false;
+	this.sourceRect = new createjs.Rectangle(0, 0, this.w, this.h);
+};
+},{}],17:[function(require,module,exports){
 module.exports.parseMMSS = function(s){
 
     var sec_num = parseInt(s, 10); // don't forget the second param
@@ -22305,7 +22355,15 @@ module.exports.parseMMSS = function(s){
     var time    = minutes+':'+seconds;
     return time;
 };
-},{}],17:[function(require,module,exports){
+
+module.exports.getStorageSettingDefaulted = function(name, defaultOpt) {
+	res = localStorage.getItem(name);
+	if (res === null) {
+		return defaultOpt
+	}
+	return res
+}
+},{}],18:[function(require,module,exports){
 /*
   The MIT License
 
@@ -22457,7 +22515,7 @@ function getScreenHeight() {
 }
 ndgmr.getScreenHeight = getScreenHeight;
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 var game = require("./../lib/game");
 
 var MenuScene = tine._scene({
@@ -22590,7 +22648,7 @@ var MenuScene = tine._scene({
 
 module.exports = new MenuScene();
 
-},{"./../lib/game":13}],19:[function(require,module,exports){
+},{"./../lib/game":13}],20:[function(require,module,exports){
 // var game = require("./../lib/game");
 var $ = require("jquery");
 var ndgmr = require("./../lib/vendor/ndgmr.utils");
@@ -23508,7 +23566,7 @@ module.exports = new PlayScene();
 
 
 
-},{"./../lib/entities/hero.js":8,"./../lib/entities/monster.js":9,"./../lib/entities/parallax_layer.js":10,"./../lib/entities/score_label.js":11,"./../lib/entities/time_label.js":12,"./../lib/timer.js":15,"./../lib/vendor/ndgmr.utils":17,"jquery":1}],20:[function(require,module,exports){
+},{"./../lib/entities/hero.js":8,"./../lib/entities/monster.js":9,"./../lib/entities/parallax_layer.js":10,"./../lib/entities/score_label.js":11,"./../lib/entities/time_label.js":12,"./../lib/timer.js":15,"./../lib/vendor/ndgmr.utils":18,"jquery":1}],21:[function(require,module,exports){
 var game = require("./../lib/game");
 
 var PreloadScene = tine._scene({
@@ -23589,7 +23647,7 @@ var PreloadScene = tine._scene({
 
 module.exports = new PreloadScene();
 
-},{"./../lib/game":13}],21:[function(require,module,exports){
+},{"./../lib/game":13}],22:[function(require,module,exports){
 // var game = require("./../lib/game");
 var util = require("./../lib/util");
 
@@ -23903,8 +23961,11 @@ var LevelCompleteScene = tine._scene({
 
 module.exports = new LevelCompleteScene();
 
-},{"./../lib/util":16}],22:[function(require,module,exports){
+},{"./../lib/util":17}],23:[function(require,module,exports){
 var game = require("./../lib/game");
+
+var ToggleButton = require("./../lib/togglebutton.js");
+var util = require("./../lib/util");
 
 var SettingScene = tine._scene({
     initialize: function() {
@@ -23916,8 +23977,6 @@ var SettingScene = tine._scene({
 			drawRect(0, 0, game.canvas.width, game.canvas.height).
 			endFill();	
 						
-
-
 		var background = new createjs.Shape(gfx);
 		background.x = 0;
 		this.background = background;
@@ -23942,29 +24001,32 @@ var SettingScene = tine._scene({
 		    animations: { normal: [0], hover: [1], clicked: [1] }
 		});
 
-		var button = new createjs.Sprite(spriteSheet);
+		var buttonSave = new createjs.Sprite(spriteSheet);
 		var buttonSetting = new createjs.Sprite(spriteSheetSetting);
-		var startBtn = new createjs.ButtonHelper(button, "normal", "hover", "clicked");
+		var startBtn = new createjs.ButtonHelper(buttonSave, "normal", "hover", "clicked");
 		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
+ 		var toggleMusicBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableMusic", true)) 
+ 		var toggleSoundBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 60, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableSound", true)) 
+ 		var toggleLanguageBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 80, 40, 100, 100, this.toggleLanguage, util.getStorageSettingDefaulted("enableThai", true)) 
 
 		buttonSetting.on("click", function(evt){
 			this.settingsScreen();
 		}, this);
 
 
-		button.height = 200;
-		button.width = 200;
-		button.gotoAndStop("normal");
+		buttonSave.height = 200;
+		buttonSave.width = 200;
+		buttonSave.gotoAndStop("normal");
 
 		buttonSetting.height = 150;
 		buttonSetting.width = 150;
 		buttonSetting.gotoAndStop("normal");
 
-		this.button = button;
-		this.buttonSetting = buttonSetting;
-		this.addChild(button);
-		this.addChild(buttonSetting);
-
+		this.buttonSave = buttonSave;
+		this.addChild(buttonSave);
+		this.addChild(toggleMusicBtn);
+		this.addChild(toggleSoundBtn);
+		this.addChild(toggleLanguageBtn);
 
 
     	this.resize();
@@ -23982,13 +24044,10 @@ var SettingScene = tine._scene({
         console.log("resize menu scene");
 
 
-		this.buttonSetting.y = game.canvas.height - 350;
-		this.buttonSetting.x = (game.canvas.width / 2) - (this.buttonSetting.width / 2);
-
-		this.button.y = game.canvas.height - 250;
+		this.buttonSave.y = game.canvas.height - 250;
 
 		//center the button under the logo
-		this.button.x = (game.canvas.width / 2) - (this.button.width / 2);
+		this.buttonSave.x = (game.canvas.width / 2) - (this.buttonSave.width / 2);
 
 		// Background: full screen redraw 
 		this.background.graphics.clear()
@@ -24000,11 +24059,23 @@ var SettingScene = tine._scene({
     exit: function(){
         game.director.replace('menu', new tine.transitions.FadeIn(null, 1000));	
     },
+    toggleMusic: function() {
+    },
+    toggleSounds: function() {
+    },
+    //What language they are learning
+    toggleLanguage: function() {
+    },
+    //What menus should be written in
+    toggleToggleHomeLanguage: function() {
+    },
+    toggleAllowWrongKeys: function() {
+    },
 });
 
 module.exports = new SettingScene();
 
-},{"./../lib/game":13}]},{},[3])
+},{"./../lib/game":13,"./../lib/togglebutton.js":16,"./../lib/util":17}]},{},[3])
 
 
 //# sourceMappingURL=bundle.js.map

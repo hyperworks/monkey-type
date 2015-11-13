@@ -9,3 +9,11 @@ module.exports.parseMMSS = function(s){
     var time    = minutes+':'+seconds;
     return time;
 };
+
+module.exports.getStorageSettingDefaulted = function(name, defaultOpt) {
+	res = localStorage.getItem(name);
+	if (res === null) {
+		return defaultOpt
+	}
+	return res
+}

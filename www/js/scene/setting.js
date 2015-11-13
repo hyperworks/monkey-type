@@ -1,5 +1,8 @@
 var game = require("./../lib/game");
 
+var ToggleButton = require("./../lib/togglebutton.js");
+var util = require("./../lib/util");
+
 var SettingScene = tine._scene({
     initialize: function() {
         console.log("init menu scene");
@@ -10,8 +13,6 @@ var SettingScene = tine._scene({
 			drawRect(0, 0, game.canvas.width, game.canvas.height).
 			endFill();	
 						
-
-
 		var background = new createjs.Shape(gfx);
 		background.x = 0;
 		this.background = background;
@@ -36,29 +37,32 @@ var SettingScene = tine._scene({
 		    animations: { normal: [0], hover: [1], clicked: [1] }
 		});
 
-		var button = new createjs.Sprite(spriteSheet);
+		var buttonSave = new createjs.Sprite(spriteSheet);
 		var buttonSetting = new createjs.Sprite(spriteSheetSetting);
-		var startBtn = new createjs.ButtonHelper(button, "normal", "hover", "clicked");
+		var startBtn = new createjs.ButtonHelper(buttonSave, "normal", "hover", "clicked");
 		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
+ 		var toggleMusicBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableMusic", true)) 
+ 		var toggleSoundBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 60, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableSound", true)) 
+ 		var toggleLanguageBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 80, 40, 100, 100, this.toggleLanguage, util.getStorageSettingDefaulted("enableThai", true)) 
 
 		buttonSetting.on("click", function(evt){
 			this.settingsScreen();
 		}, this);
 
 
-		button.height = 200;
-		button.width = 200;
-		button.gotoAndStop("normal");
+		buttonSave.height = 200;
+		buttonSave.width = 200;
+		buttonSave.gotoAndStop("normal");
 
 		buttonSetting.height = 150;
 		buttonSetting.width = 150;
 		buttonSetting.gotoAndStop("normal");
 
-		this.button = button;
-		this.buttonSetting = buttonSetting;
-		this.addChild(button);
-		this.addChild(buttonSetting);
-
+		this.buttonSave = buttonSave;
+		this.addChild(buttonSave);
+		this.addChild(toggleMusicBtn);
+		this.addChild(toggleSoundBtn);
+		this.addChild(toggleLanguageBtn);
 
 
     	this.resize();
@@ -76,13 +80,10 @@ var SettingScene = tine._scene({
         console.log("resize menu scene");
 
 
-		this.buttonSetting.y = game.canvas.height - 350;
-		this.buttonSetting.x = (game.canvas.width / 2) - (this.buttonSetting.width / 2);
-
-		this.button.y = game.canvas.height - 250;
+		this.buttonSave.y = game.canvas.height - 250;
 
 		//center the button under the logo
-		this.button.x = (game.canvas.width / 2) - (this.button.width / 2);
+		this.buttonSave.x = (game.canvas.width / 2) - (this.buttonSave.width / 2);
 
 		// Background: full screen redraw 
 		this.background.graphics.clear()
@@ -93,6 +94,18 @@ var SettingScene = tine._scene({
     },
     exit: function(){
         game.director.replace('menu', new tine.transitions.FadeIn(null, 1000));	
+    },
+    toggleMusic: function() {
+    },
+    toggleSounds: function() {
+    },
+    //What language they are learning
+    toggleLanguage: function() {
+    },
+    //What menus should be written in
+    toggleToggleHomeLanguage: function() {
+    },
+    toggleAllowWrongKeys: function() {
     },
 });
 
