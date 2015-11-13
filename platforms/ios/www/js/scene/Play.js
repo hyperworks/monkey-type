@@ -25,6 +25,8 @@ var RUNNABLE_STATES = [
 	State.MONSTER_DYING
 ]
 
+var ignoreIncorrectKeys = true; //more of a general config, we are going to ingore incorrect key presses
+
 
 var PlayScene = tine._scene({
     initialize: function() {
@@ -217,7 +219,7 @@ var PlayScene = tine._scene({
 		}			
 
 		//init monster textfield to show current word
-		this.showWordLabel = new createjs.Text("", "20px Arial", "#ff7700");
+		this.showWordLabel = new createjs.Text("", "26px Arial", "#ff7700");
 		this.showWordLabel.textBaseline = "alphabetic";		
 
 		//initialize hero
@@ -369,7 +371,6 @@ var PlayScene = tine._scene({
 		}			
 		// this.update();
 
-
 		this.highlightWrittentext();
     },
     resize: function(){
@@ -410,7 +411,7 @@ var PlayScene = tine._scene({
 
 		//TODO middle of the monster
 		that.showWordLabel.x = width - 80;
-		    that.showWordLabel.y = ground0.y - ground0.height - 35;
+		    that.showWordLabel.y = ground0.y - ground0.height - 37;
 
 		    // that.wpmLabel.x = this.width - 10 - that.wpmLabel.getMeasuredWidth();
 
@@ -511,8 +512,13 @@ var PlayScene = tine._scene({
 		this.monster.dealtDamage = false;
 	},
 	loadLevel: function() {
-
 		this.wordDictionary = game.levelManager.currentLevel.data;
+		console.log("before",this.wordDictionary)
+		this.wordDictionary.sort(function () {
+		    return Math.random() - 0.5;
+		});
+		console.log("after",this.wordDictionary)
+
 
 		console.log('loadLevel', this.wordDictionary);
 
@@ -726,16 +732,20 @@ var PlayScene = tine._scene({
 			return;
 		}
 		this.lasttyped = data;
-/*
-		var i = 0;
-		for(i=0;i<this.currentWord.length;i++) {
-			if (this.currentWord[i] != data[i]) {
-				break;
+
+		if(ignoreIncorrectKeys == true){
+			var i = 0;
+			for(i=0;i<this.currentWord.length;i++) {
+				if (this.currentWord[i] != data[i]) {
+					prefix=this.currentWord.slice(0,i)
+					this.curTyping = prefix
+					data = prefix
+					break;
+				}
 			}
 		}
-*/
 
-		//prefix=this.currentWord.slice(0,i)
+		//
 		//postfix=this.currentWord.slice(i)
 
 //			console.log("switching text", that.prefix.text);

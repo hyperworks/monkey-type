@@ -22022,6 +22022,8 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
 		game.load.image("coin", config.path.assets + "img/gui-game-coin.png"); 
 		game.load.image("button_play_0", config.path.assets + "img/gui_button_play_icon-0.png"); 
 		game.load.image("button_play_1", config.path.assets + "img/gui_button_play_icon-1.png"); 
+		game.load.image("setting_btn_play_0", config.path.assets + "img/level_complete/gui_game_button_next_0.png"); 
+		game.load.image("setting_btn_play_1", config.path.assets + "img/level_complete/gui_game_button_next_1.png"); 
 		game.load.image("logo_2x", config.path.assets + "img/5-6-2015-logo-th-2x.png"); 
 		
 		game.load.image("gui_frame_en", config.path.assets + "img/level_complete/gui_high-score_en.png"); 
@@ -22484,19 +22486,42 @@ var MenuScene = tine._scene({
 		    frames: { width: 200, height: 200},
 		    animations: { normal: [0], hover: [1], clicked: [1] }
 		});
+		var spriteSheetSetting = new createjs.SpriteSheet({
+		    images: [
+		    	game.load.get("setting_btn_play_0"),
+		    	game.load.get("setting_btn_play_1")
+		    ],
+		    frames: { width: 125, height: 125},
+		    animations: { normal: [0], hover: [1], clicked: [1] }
+		});
+
 		var button = new createjs.Sprite(spriteSheet);
+		var buttonSetting = new createjs.Sprite(spriteSheetSetting);
 		var startBtn = new createjs.ButtonHelper(button, "normal", "hover", "clicked");
+		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
 
 		button.on("click", function(evt){
 			this.exit();
 		}, this);
 
+
+		buttonSetting.on("click", function(evt){
+			this.settingsScreen();
+		}, this);
+
+
 		button.height = 200;
 		button.width = 200;
 		button.gotoAndStop("normal");
 
+		buttonSetting.height = 150;
+		buttonSetting.width = 150;
+		buttonSetting.gotoAndStop("normal");
+
 		this.button = button;
+		this.buttonSetting = buttonSetting;
 		this.addChild(button);
+		this.addChild(buttonSetting);
 
 		//create logo
 		logo = new createjs.Bitmap(game.load.get("logo_2x"));
@@ -22535,6 +22560,9 @@ var MenuScene = tine._scene({
 
 		this.logo.x = (game.canvas.width / 2) - (330 / 2);
 
+		this.buttonSetting.y = game.canvas.height - 350;
+		this.buttonSetting.x = (game.canvas.width / 2) - (this.buttonSetting.width / 2);
+
 		this.button.y = game.canvas.height - 250;
 
 		//center the button under the logo
@@ -22552,6 +22580,9 @@ var MenuScene = tine._scene({
 
     	game.levelManager.loadLevel();
     	game.director.replace('play');
+    },
+    settingsScreen: function(){
+    	alert('hi');
     }
 });
 
