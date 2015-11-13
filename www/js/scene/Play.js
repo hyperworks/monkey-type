@@ -10,6 +10,7 @@ var ScoreLabel = require("./../lib/entities/score_label.js");
 var TimeLabel = require("./../lib/entities/time_label.js");
 
 var Timer = require("./../lib/timer.js");
+var util = require("./../lib/util");
 
 var BASE_WIDTH = 320,
 	BASE_HEIGHT = 480;
@@ -127,6 +128,8 @@ var PlayScene = tine._scene({
 		var gameContainer = new createjs.Container();
 		this.gameContainer = gameContainer;
 
+		this.enableMusic = util.getStorageSettingDefaulted("enableMusic", true);
+		this.enableSound = util.getStorageSettingDefaulted("enableSound", true);
 
 		textContainer.y = this.canvas.height - 50;
 		textContainer.height = 50;
@@ -268,7 +271,6 @@ var PlayScene = tine._scene({
 
 		//load sound
 		createjs.Sound.registerSound({src:"./assets/sound/jump.wav", id:"soundJump"});
-		createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
 		
 		//set FPS and start listening to game ticks
 		// createjs.Ticker.setFPS(40);
@@ -283,7 +285,9 @@ var PlayScene = tine._scene({
 
     	this.resize();
 
-		this.bgMusic = this.playAudio("soundGameplay");
+    	if (this.enableMusic) {
+			this.bgMusic = this.playAudio("soundGameplay");
+		}
     },
     update: function() {
 		if (this.play_paused) {
@@ -800,10 +804,12 @@ var PlayScene = tine._scene({
 		}
 	},
 	playAudio: function(id) {
+    	if (!this.enableSound && (id != "soundGameplay")) {
+    		return 
+    	}
 
 		var that = this;
 		var sound;
-
 		//use cordova media plugin if available
 		if(window.cordova)
 		{
@@ -835,8 +841,8 @@ var PlayScene = tine._scene({
 
 			if(id == "soundGameplay")
 			{	
-
 				sound.on("complete", function(){
+					console.log("sound loaded!")
 					that.playAudio(id);
 				});
 	     		sound.volume = 0.5;

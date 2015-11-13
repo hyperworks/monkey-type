@@ -9,8 +9,11 @@ var MenuScene = tine._scene({
 			beginLinearGradientFill(["#000","#FFF"], [0.3, 0.7], 0, 20, 0, 120).
 			drawRect(0, 0, game.canvas.width, game.canvas.height).
 			endFill();	
-						
 
+		//preload !	
+        if(!window.cordova){				
+			createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
+		}
 
 		var background = new createjs.Shape(gfx);
 		background.x = 0;
