@@ -107,6 +107,7 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
         // Add your scenes to the director
         game.director.add('menu', require("./../scene/Menu"));
         game.director.add('play', require("./../scene/Play"));
+        game.director.add('setting', require("./../scene/setting"));
         game.director.add('level_complete', require("./../scene/level_complete"));
 
         //init level manager

@@ -1,6 +1,6 @@
 var game = require("./../lib/game");
 
-var MenuScene = tine._scene({
+var SettingScene = tine._scene({
     initialize: function() {
         console.log("init menu scene");
 
@@ -41,13 +41,8 @@ var MenuScene = tine._scene({
 		var startBtn = new createjs.ButtonHelper(button, "normal", "hover", "clicked");
 		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
 
-		button.on("click", function(evt){
-			this.playGame();
-		}, this);
-
-
 		buttonSetting.on("click", function(evt){
-			this.settingScreen();
+			this.settingsScreen();
 		}, this);
 
 
@@ -64,28 +59,12 @@ var MenuScene = tine._scene({
 		this.addChild(button);
 		this.addChild(buttonSetting);
 
-		//create logo
-		logo = new createjs.Bitmap(game.load.get("logo_2x"));
-		logo.y = 30;
-		logo.scaleY = 0.38;
-		logo.scaleX = 0.38;
-		this.logo = logo;
 
-		this.addChild(logo);
 
     	this.resize();
     },
-  //   preEnter: function(){
-  //   	console.log("preEnter menu scene");
-    	
-		// //deactivate keyboard
-		// document.activeElement.blur();
-
-  //   	game.resize();
-  //   	this.resize();
-  //   },
-    enter: function(){
-    	console.log("enter menu scene");
+	enter: function(){
+    	console.log("enter setting scene");
     	
 		//deactivate keyboard
 		document.activeElement.blur();
@@ -93,13 +72,9 @@ var MenuScene = tine._scene({
     	game.resize();
     	this.resize();
     },
-    update: function() {
-        // console.log("update menu scene");
-    },
     resize: function(){
         console.log("resize menu scene");
 
-		this.logo.x = (game.canvas.width / 2) - (330 / 2);
 
 		this.buttonSetting.y = game.canvas.height - 350;
 		this.buttonSetting.x = (game.canvas.width / 2) - (this.buttonSetting.width / 2);
@@ -116,16 +91,9 @@ var MenuScene = tine._scene({
 			drawRect(0, 0, game.canvas.width, game.canvas.height).
 			endFill();	
     },
-    playGame: function(){
-    	game.levelManager.loadLevel();
-    	game.director.replace('play');
-    },
     exit: function(){
-    	// game.director.replace('play', new tine.transitions.FadeIn(null, 1000));
+        game.director.replace('menu', new tine.transitions.FadeIn(null, 1000));	
     },
-    settingScreen: function(){
-        game.director.replace('setting', new tine.transitions.FadeIn(null, 1000));	
-    }
 });
 
-module.exports = new MenuScene();
+module.exports = new SettingScene();
