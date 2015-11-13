@@ -41,12 +41,29 @@ var SettingScene = tine._scene({
 		var buttonSetting = new createjs.Sprite(spriteSheetSetting);
 		var startBtn = new createjs.ButtonHelper(buttonSave, "normal", "hover", "clicked");
 		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
- 		var toggleMusicBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableMusic", true)) 
- 		var toggleSoundBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 60, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableSound", true)) 
- 		var toggleLanguageBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 80, 40, 100, 100, this.toggleLanguage, util.getStorageSettingDefaulted("enableThai", true)) 
+ 		this.toggleMusicBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableMusic", true)) 
+ 		this.toggleSoundBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 150, this.toggleMusic, util.getStorageSettingDefaulted("enableSound", true)) 
+ 		this.toggleThaiBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 200, this.toggleLanguage, util.getStorageSettingDefaulted("enableThai", true)) 
 
-		buttonSetting.on("click", function(evt){
-			this.settingsScreen();
+		this.musicLabel = new createjs.Text("Enable Background Music", "20px Arial", "#ff7700");
+		this.musicLabel.x = 160;
+		this.musicLabel.y = 100;
+		this.musicLabel.textBaseline = "alphabetic";
+
+		this.soundLabel = new createjs.Text("Enable Sounds", "20px Arial", "#ff7700");
+		this.soundLabel.x = 160;
+		this.soundLabel.y = 150;
+		this.soundLabel.textBaseline = "alphabetic";
+
+
+		this.enableThaiLabel = new createjs.Text("Typing Language Thai", "20px Arial", "#ff7700");
+		this.enableThaiLabel.x = 160;
+		this.enableThaiLabel.y = 200;
+		this.enableThaiLabel.textBaseline = "alphabetic";
+
+
+		buttonSave.on("click", function(evt){
+			this.exit();
 		}, this);
 
 
@@ -60,9 +77,12 @@ var SettingScene = tine._scene({
 
 		this.buttonSave = buttonSave;
 		this.addChild(buttonSave);
-		this.addChild(toggleMusicBtn);
-		this.addChild(toggleSoundBtn);
-		this.addChild(toggleLanguageBtn);
+		this.addChild(this.toggleMusicBtn);
+		this.addChild(this.toggleSoundBtn);
+		this.addChild(this.toggleThaiBtn);
+		this.addChild(this.musicLabel);
+		this.addChild(this.soundLabel);
+		this.addChild(this.enableThaiLabel);
 
 
     	this.resize();
@@ -93,6 +113,10 @@ var SettingScene = tine._scene({
 			endFill();	
     },
     exit: function(){
+    	localStorage.setItem("enableMusic", this.toggleMusicBtn.state)
+    	localStorage.setItem("enableSound", this.toggleSoundBtn.state)
+    	localStorage.setItem("enableThai", this.toggleThaiBtn.state)
+
         game.director.replace('menu', new tine.transitions.FadeIn(null, 1000));	
     },
     toggleMusic: function() {

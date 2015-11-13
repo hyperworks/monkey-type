@@ -13,7 +13,14 @@ module.exports.parseMMSS = function(s){
 module.exports.getStorageSettingDefaulted = function(name, defaultOpt) {
 	res = localStorage.getItem(name);
 	if (res === null) {
-		return defaultOpt
+		res =  defaultOpt
 	}
-	return res
+    if (res === "true") {
+        return true
+    }
+    if (res === "false") {
+        return false
+    }
+
+    return res
 }
