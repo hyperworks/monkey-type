@@ -1,9 +1,11 @@
 // var game = require("./../lib/game");
+// var PlatformManager = require("./../lib/entities/platform_manager.js");
+
+
 var $ = require("jquery");
 var ndgmr = require("./../lib/vendor/ndgmr.utils");
 
 var ParallaxLayer = require("./../lib/entities/parallax_layer.js");
-// var PlatformManager = require("./../lib/entities/platform_manager.js");
 var Hero = require("./../lib/entities/hero.js");
 var Monster = require("./../lib/entities/monster.js");
 var ScoreLabel = require("./../lib/entities/score_label.js");
@@ -309,22 +311,6 @@ var PlayScene = tine._scene({
 		if(RUNNABLE_STATES.indexOf(this.state) == -1) return;
 
 
-		if(this.hero.alive){
-			// if(this.jumpClicked){	
-			// 	this.hero.jump();
-			// 	this.jumpClicked = false;
-			// }
-			//update			
-			// this.collideWithGroup(this.hero, this.platformManager);
-
-			// this.hero.update();				
-		}else{
-			//show death state
-			// if(!this.gameOver){
-			// 	this.leave(true);
-			// }		
-		}
-
 		this.respawnMonster();
 
 		this.hero.update();							
@@ -346,15 +332,8 @@ var PlayScene = tine._scene({
 			{
 				this.hero.alive = false;
 				this.hero.animation.gotoAndPlay("death");
-
-				// for(var i in that.parallaxLayer)
-				// {
-				// 	that.parallaxLayer[i].velocity.x = 0;
-				// }
 			}
 		}
-
-
 		//update wpm counter
 		this.wpmLabel.text = "WPM: " + this.calculateWpm();
 		this.resizeWpmLabel();
@@ -364,17 +343,10 @@ var PlayScene = tine._scene({
 
 		this.timeLabel.update();
 		this.timeLabel.render(); //for concept, later both should be called through looping a array of game objects
-
-//			this.platformManager.update();
-
-//			this.platformManager.render();
-
 		for(var i in this.parallaxLayer){
 			this.parallaxLayer[i].update();
 			this.parallaxLayer[i].render();
 		}			
-		// this.update();
-
 		this.highlightWrittentext();
     },
     resize: function(){
@@ -674,7 +646,7 @@ var PlayScene = tine._scene({
 		this.monster = new Monster({
 			spriteSheet : ss2,
 			// x: 200,
-			y: 540,
+			y: 348,
 			x: 320,
 			// y: 438,
 			scalePositionX: true,

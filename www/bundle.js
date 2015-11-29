@@ -22022,8 +22022,8 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
 		game.load.image("coin", config.path.assets + "img/gui-game-coin.png"); 
 		game.load.image("button_play_0", config.path.assets + "img/gui_button_play_icon-0.png"); 
 		game.load.image("button_play_1", config.path.assets + "img/gui_button_play_icon-1.png"); 
-		game.load.image("setting_btn_play_0", config.path.assets + "img/level_complete/gui_game_button_next_0.png"); 
-		game.load.image("setting_btn_play_1", config.path.assets + "img/level_complete/gui_game_button_next_1.png"); 
+		game.load.image("setting_btn_play_0", config.path.assets + "img/gui_button_setting_0.png"); 
+		game.load.image("setting_btn_play_1", config.path.assets + "img/gui_button_setting_1.png"); 
 		game.load.image("logo_2x", config.path.assets + "img/5-6-2015-logo-th-2x.png"); 
 		
 		game.load.image("gui_frame_en", config.path.assets + "img/level_complete/gui_high-score_en.png"); 
@@ -22536,7 +22536,7 @@ var MenuScene = tine._scene({
 			endFill();	
 
 		//preload !	
-        if(!window.cordova){				
+        if(window.cordova){				
 			createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
 		}
 
@@ -22590,7 +22590,7 @@ var MenuScene = tine._scene({
 		this.button = button;
 		this.buttonSetting = buttonSetting;
 		this.addChild(button);
-		this.addChild(buttonSetting);
+	//	this.addChild(buttonSetting);
 
 		//create logo
 		logo = new createjs.Bitmap(game.load.get("logo_2x"));
@@ -22660,11 +22660,13 @@ module.exports = new MenuScene();
 
 },{"./../lib/game":13}],20:[function(require,module,exports){
 // var game = require("./../lib/game");
+// var PlatformManager = require("./../lib/entities/platform_manager.js");
+
+
 var $ = require("jquery");
 var ndgmr = require("./../lib/vendor/ndgmr.utils");
 
 var ParallaxLayer = require("./../lib/entities/parallax_layer.js");
-// var PlatformManager = require("./../lib/entities/platform_manager.js");
 var Hero = require("./../lib/entities/hero.js");
 var Monster = require("./../lib/entities/monster.js");
 var ScoreLabel = require("./../lib/entities/score_label.js");
@@ -24002,25 +24004,15 @@ var SettingScene = tine._scene({
         //create button
 		var spriteSheet = new createjs.SpriteSheet({
 		    images: [
-		    	game.load.get("button_play_0"),
-		    	game.load.get("button_play_1")
-		    ],
-		    frames: { width: 200, height: 200},
-		    animations: { normal: [0], hover: [1], clicked: [1] }
-		});
-		var spriteSheetSetting = new createjs.SpriteSheet({
-		    images: [
-		    	game.load.get("setting_btn_play_0"),
-		    	game.load.get("setting_btn_play_1")
+		    	game.load.get("lc_button_next_0"),
+		    	game.load.get("lc_button_next_1")
 		    ],
 		    frames: { width: 125, height: 125},
 		    animations: { normal: [0], hover: [1], clicked: [1] }
 		});
 
 		var buttonSave = new createjs.Sprite(spriteSheet);
-		var buttonSetting = new createjs.Sprite(spriteSheetSetting);
 		var startBtn = new createjs.ButtonHelper(buttonSave, "normal", "hover", "clicked");
-		var settingBtn = new createjs.ButtonHelper(buttonSetting, "normal", "hover", "clicked");
  		this.toggleMusicBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 100, this.toggleMusic, util.getStorageSettingDefaulted("enableMusic", true)) 
  		this.toggleSoundBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 150, this.toggleMusic, util.getStorageSettingDefaulted("enableSound", true)) 
  		this.toggleThaiBtn = new ToggleButton(game.load.get("setting_btn_play_0"), 40, 40, 100, 200, this.toggleLanguage, util.getStorageSettingDefaulted("enableThai", true)) 
@@ -24050,10 +24042,6 @@ var SettingScene = tine._scene({
 		buttonSave.height = 200;
 		buttonSave.width = 200;
 		buttonSave.gotoAndStop("normal");
-
-		buttonSetting.height = 150;
-		buttonSetting.width = 150;
-		buttonSetting.gotoAndStop("normal");
 
 		this.buttonSave = buttonSave;
 		this.addChild(buttonSave);

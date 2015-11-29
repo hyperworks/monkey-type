@@ -11,7 +11,7 @@ var MenuScene = tine._scene({
 			endFill();	
 
 		//preload !	
-        if(!window.cordova){				
+        if(window.cordova){				
 			createjs.Sound.registerSound({src:"./assets/sound/gameplay.wav", id:"soundGameplay"});
 		}
 
@@ -65,7 +65,7 @@ var MenuScene = tine._scene({
 		this.button = button;
 		this.buttonSetting = buttonSetting;
 		this.addChild(button);
-		this.addChild(buttonSetting);
+	//	this.addChild(buttonSetting);
 
 		//create logo
 		logo = new createjs.Bitmap(game.load.get("logo_2x"));

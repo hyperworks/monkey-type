@@ -42,8 +42,8 @@ var game = window.game = module.exports = new tine.Game(require("../game_config"
 		game.load.image("coin", config.path.assets + "img/gui-game-coin.png"); 
 		game.load.image("button_play_0", config.path.assets + "img/gui_button_play_icon-0.png"); 
 		game.load.image("button_play_1", config.path.assets + "img/gui_button_play_icon-1.png"); 
-		game.load.image("setting_btn_play_0", config.path.assets + "img/level_complete/gui_game_button_next_0.png"); 
-		game.load.image("setting_btn_play_1", config.path.assets + "img/level_complete/gui_game_button_next_1.png"); 
+		game.load.image("setting_btn_play_0", config.path.assets + "img/gui_button_setting_0.png"); 
+		game.load.image("setting_btn_play_1", config.path.assets + "img/gui_button_setting_1.png"); 
 		game.load.image("logo_2x", config.path.assets + "img/5-6-2015-logo-th-2x.png"); 
 		
 		game.load.image("gui_frame_en", config.path.assets + "img/level_complete/gui_high-score_en.png"); 
